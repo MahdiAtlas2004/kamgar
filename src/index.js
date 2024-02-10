@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDom from "react-dom/client";
+import ReactDOM from "react-dom/client";
 
 import App from "./App";
 
@@ -8,5 +8,5 @@ import 'font-awesome/css/font-awesome.min.css';
 import "./index.css";
 
 const container = document.getElementById('root');
-const root = ReactDom.createRoot(container);
+const root = ReactDOM.createRoot(container);
 root.render(<App />);
