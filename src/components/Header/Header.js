@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <Navbar collapseOnSelect expand="lg" className="nav-bg fixed-top">
       <Container>
-        <Navbar.Brand href="#home">Kamgar Info Website</Navbar.Brand>
+        <Navbar.Brand href="#home" className="navBrand">Kamgar Info Website</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
 
@@ -18,15 +18,15 @@ const Header = () => {
 
           {/* This is our main menue */}
           <Nav>
-          <Nav.Link href="#contact">ارتباط با من</Nav.Link>
-          <Nav.Link href="#articles">مقالات</Nav.Link>
-            <Nav.Link href="#book">
+          <Nav.Link href="#contact" className="myLink">ارتباط با من</Nav.Link>
+          <Nav.Link href="#articles" className="myLink">مقالات</Nav.Link>
+            <Nav.Link href="#book" className="myLink">
               آثار
             </Nav.Link>
-            <Nav.Link  href="#about">
+            <Nav.Link  href="#about" className="myLink">
               بیوگرافی
             </Nav.Link>
-            <Nav.Link  href="#home">
+            <Nav.Link  href="#home" className="myLink">
               خانه
             </Nav.Link>
           </Nav>

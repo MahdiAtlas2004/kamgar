@@ -11,7 +11,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="homeContainer d-flex align-items-center justify-content-center mt-5">
+    <div className="homeContainer d-flex align-items-center justify-content-center mt-5" id="home">
       <Container>
         <Row className="gy-4">
           <Col

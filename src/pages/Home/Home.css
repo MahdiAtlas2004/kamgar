@@ -1,8 +1,22 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("/public/assets/fonts/Vazir.eot");
+    /* IE9 Compat Modes */
+    src: url("/public/assets/fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+      url("/public/assets/fonts/Vazir.woff2") format("woff2"),
+      url("/public/assets/fonts/Vazir.woff") format("woff"),
+      url("/public/assets/fonts/Vazir.ttf") format("truetype");
+    /* Safari, Android, iOS */
+  }
+
 .homeContainer {
+    font-family: "Vazir" !important;
     width: 100%;
     height: 93vh;
-    background: linear-gradient(to right, #fe8c00, #f83600);
-    background-image: linear-gradient(to right, rgb(254, 140, 0), rgb(248, 54, 0));
+    background: linear-gradient(to bottom, (rgb(0, 168, 232),
+    rgb(0, 52, 89)));
+    background-image: linear-gradient(to bottom, rgb(0, 168, 232),
+    rgb(0, 52, 89));
     background-position-x: initial;
     background-position-y: initial;
     background-size: initial;
@@ -13,6 +27,9 @@
     background-color: initial;
 }
 
+#home {
+    scroll-behavior: smooth !important;
+}
 
 h1, h2 {
     color: #ffffff;

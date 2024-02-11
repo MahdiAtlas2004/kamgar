@@ -1,14 +1,7 @@
-/* .nav-bg {
-  background: #007ea7;
-} */
-
 .nav-bg {
-  background: linear-gradient(to right, #fe8c00, #f83600);
-  background-image: linear-gradient(
-    to right,
-    rgb(254, 140, 0),
-    rgb(248, 54, 0)
-  );
+  background: linear-gradient(to right, (rgb(0, 168, 232),
+    rgb(0, 52, 89)));
+  background-image: linear-gradient(to right, rgb(0, 168, 232), rgb(0, 52, 89));
   background-position-x: initial;
   background-position-y: initial;
   background-size: initial;
@@ -17,12 +10,30 @@
   background-origin: initial;
   background-clip: initial;
   background-color: initial;
-  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.navBrand {
+  color: #000000 !important;
+  font-weight: bold;
+  font-size: 1.5rem !important;
 }
 
 @media only screen and (max-width: 540px) {
-    .nav-bg {
-        direction: rtl;
-    }
+  .nav-bg {
+    direction: rtl;
+  }
+  .navBrand {
+    color: #ffffff !important;
+    font-weight: bold;
+  }
 }
 
+.myLink {
+  color: #ffffff !important;
+}
+
+.myLink:hover {
+  color: rgb(143, 143, 149) !important;
+  text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}

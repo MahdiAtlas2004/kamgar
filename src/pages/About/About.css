@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Vazir";
+  src: url("/public/assets/fonts/Vazir.eot");
+  /* IE9 Compat Modes */
+  src: url("/public/assets/fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("/public/assets/fonts/Vazir.woff2") format("woff2"),
+    url("/public/assets/fonts/Vazir.woff") format("woff"),
+    url("/public/assets/fonts/Vazir.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+
+.about-section {
+    font-family: "Vazir" !important;
+}
+
+#about {
+    scroll-behavior: smooth !important;
+}
+
+.about-image {
+    box-shadow: 2px 2px 1.4rem rgb(0, 52, 89);
+}
+
+.myHeader {
+  color: rgb(0, 168, 232) !important;
+}
+
+.paragraph {
+    font-size: 18px !important;
+}
+
+.kam-name {
+    color: rgb(0, 52, 89) !important;
+}
+
+.learnMore:hover {
+    text-decoration: underline;
+}
