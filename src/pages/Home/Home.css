@@ -1,18 +1,28 @@
-.myBackground {
-    background-image: url("./images/sea-water-background.jpg");
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-}
-
 .homeContainer {
     width: 100%;
     height: 92vh;
     background-color: #007ae7;
 }
 
+
 h1, h2 {
     color: #ffffff;
 }
 
+.homeImage {
+    width: 78%;
+    height: 70vh;
+    border-radius: 50%;
+}
+
+.homeTitle {
+    color: white;
+}
+
+@media only screen and (max-width: 540px) {
+    .homeImage {
+        border-radius: 5px;
+        content: url("/public/assets/images/2of1.JPG");
+        width: 90%;
+    }
+}
