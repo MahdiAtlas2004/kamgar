@@ -7,7 +7,7 @@ import './Header.css';
 // bg-body-tertiary
 const Header = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" className="nav-bg">
+    <Navbar collapseOnSelect expand="lg" className="nav-bg fixed-top">
       <Container>
         <Navbar.Brand href="#home">Kamgar Info Website</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

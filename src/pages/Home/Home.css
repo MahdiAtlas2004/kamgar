@@ -1,7 +1,16 @@
 .homeContainer {
     width: 100%;
-    height: 92vh;
-    background-color: #007ae7;
+    height: 93vh;
+    background: linear-gradient(to right, #fe8c00, #f83600);
+    background-image: linear-gradient(to right, rgb(254, 140, 0), rgb(248, 54, 0));
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
 }
 
 

@@ -1,4 +1,28 @@
-.nav-bg {
-    background: #00a8e8;
+/* .nav-bg {
+  background: #007ea7;
+} */
 
+.nav-bg {
+  background: linear-gradient(to right, #fe8c00, #f83600);
+  background-image: linear-gradient(
+    to right,
+    rgb(254, 140, 0),
+    rgb(248, 54, 0)
+  );
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
 }
+
+@media only screen and (max-width: 540px) {
+    .nav-bg {
+        direction: rtl;
+    }
+}
+
