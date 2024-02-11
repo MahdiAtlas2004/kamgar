@@ -4,10 +4,10 @@ import { LinkContainer } from "react-router-bootstrap";
 import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
 
 import './Header.css'; 
-
+// bg-body-tertiary
 const Header = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+    <Navbar collapseOnSelect expand="lg" className="nav-bg">
       <Container>
         <Navbar.Brand href="#home">Kamgar Info Website</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -20,7 +20,7 @@ const Header = () => {
           <Nav>
           <Nav.Link href="#contact">ارتباط با من</Nav.Link>
           <Nav.Link href="#articles">مقالات</Nav.Link>
-            <Nav.Link href="#books">
+            <Nav.Link href="#book">
               آثار
             </Nav.Link>
             <Nav.Link  href="#about">
