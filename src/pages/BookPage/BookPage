@@ -1,0 +1,55 @@
+import React from "react";
+import { Link, useParams } from "react-router-dom";
+import {
+  Row,
+  Col,
+  Image,
+  ListGroup,
+  Button,
+  ListGroupItem,
+} from "react-bootstrap";
+
+import books from "../../books";
+
+const BookPage = () => {
+  const { id } = useParams();
+  const book = books.find((item) => item._id === id);
+
+  if (!book) {
+    return <div>Product not found</div>;
+  }
+
+  return (
+    <div>
+      <Link to="/" className="btn btn-light my-3">
+        بازگشت به صفحه اصلی
+      </Link>
+
+      <Row>
+        <Col md={6}>
+          <Image src={book.image} fluid />
+        </Col>
+        <Col md={3}>
+          <ListGroup variant="flush">
+            <ListGroupItem>
+              <h3>{book.name}</h3>
+            </ListGroupItem>
+            <ListGroupItem>{book.price}</ListGroupItem>
+            <ListGroupItem>{book.description}</ListGroupItem>
+          </ListGroup>
+        </Col>
+        <Col md={3}>
+          <ListGroup variant="flush">
+            <ListGroupItem>
+              <Button className="btn-block" type="button">
+                افزودن به سبد خرید
+              </Button>
+            </ListGroupItem>
+          </ListGroup>
+        </Col>
+      </Row>
+    </div>
+  );
+};
+
+export default BookPage;
