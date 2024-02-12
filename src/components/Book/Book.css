@@ -41,3 +41,8 @@
     margin: 0;
     background-color: yellow;
 }
+
+.more-btn {
+    width: 90%;
+    margin-right: 3.2%;
+}

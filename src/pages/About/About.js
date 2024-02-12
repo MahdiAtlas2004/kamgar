@@ -16,6 +16,7 @@ const About = () => {
         <Row>
           <Col lg={12} className="text-center">
             <h1 className="fs-1 fw-bold myHeader">بیوگرافی</h1>
+            <div className="heading-line"></div>
           </Col>
         </Row>
         <Row className="gy-4 mt-2">

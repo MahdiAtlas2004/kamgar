@@ -12,6 +12,7 @@ const Books = () => {
         <Row>
           <Col className="text-center" lg={12}>
             <h1 className="my-header fs-1 fw-bold">آثار</h1>
+            <div className="heading-line"></div>
           </Col>
         </Row>
 

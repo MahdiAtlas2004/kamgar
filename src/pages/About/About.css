@@ -22,7 +22,7 @@
 }
 
 .myHeader {
-  color: rgb(0, 168, 232) !important;
+  color: rgb(0, 52, 89) !important;
 }
 
 .paragraph {
@@ -35,4 +35,22 @@
 
 .learnMore:hover {
     text-decoration: underline;
+}
+
+.heading-line::before {
+  content: "";
+  width: 10rem;
+  height: 0.1rem;
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(0, 168, 232);
+}
+
+.heading-line::after {
+  content: "";
+  width: 2rem;
+  height: 0.4rem;
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(0, 168, 232);
 }
