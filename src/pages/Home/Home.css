@@ -17,10 +17,11 @@
     rgb(0, 52, 89)));
     background-image: linear-gradient(to bottom, rgb(0, 168, 232),
     rgb(0, 52, 89));
+    /* background-image: url("/public/assets/images/sea2.jpg"); */
     background-position-x: initial;
     background-position-y: initial;
-    background-size: initial;
-    background-repeat: initial;
+    background-size: 100% 95vh;
+    background-repeat: no-repeat;
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
