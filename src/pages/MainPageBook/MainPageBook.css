@@ -64,6 +64,7 @@
 }
 
 .overlay:hover {
+  background-color: rgb(0, 168, 232);
   opacity: 0.7;
   cursor: pointer;
 }
@@ -81,4 +82,11 @@
 
 .myCol {
   width: 30%;
+}
+
+@media only screen and (max-width: 576px) {
+  .book-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }

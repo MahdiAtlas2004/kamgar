@@ -17,7 +17,7 @@ const MainPageBook = () => {
           </Col>
         </Row>
 
-        <Row>
+        <Row className="book-container">
           <LinkContainer to="allBooks">
             <Col sm={12} md={6} lg={3} key={books[0]._id}>
               <div className="container mt-3 rounded">

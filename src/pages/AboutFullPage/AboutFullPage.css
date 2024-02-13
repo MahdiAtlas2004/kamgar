@@ -1,0 +1,33 @@
+.paragraph {
+  font-size: 18px !important;
+}
+
+.kam-name {
+  color: rgb(0, 52, 89) !important;
+}
+
+.heading-line::before {
+  content: "";
+  width: 10rem;
+  height: 0.1rem;
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(0, 168, 232);
+}
+
+.heading-line::after {
+  content: "";
+  width: 2rem;
+  height: 0.4rem;
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(0, 168, 232);
+}
+
+.about-image {
+  box-shadow: 2px 2px 1.4rem rgb(0, 52, 89);
+}
+
+/* .myContainer {
+  margin-top: 40px;
+} */

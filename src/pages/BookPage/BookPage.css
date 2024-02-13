@@ -1,0 +1,21 @@
+.book-title {
+  color: rgb(83, 164, 221);
+}
+
+.heading-line::before {
+  content: "";
+  width: 10rem;
+  height: 0.1rem;
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(0, 168, 232);
+}
+
+.heading-line::after {
+  content: "";
+  width: 2rem;
+  height: 0.4rem;
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(0, 168, 232);
+}

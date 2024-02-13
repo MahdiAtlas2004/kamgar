@@ -9,6 +9,7 @@ import BookPage from "./pages/BookPage/BookPage";
 // import Footer from "./components/Footer/Footer";
 import Layout from "./pages/Layout/Layout";
 import AllBooks from "./pages/AllBooks/AllBooks";
+import AboutFullPage from "./pages/AboutFullPage/AboutFullPage";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/" element={<Layout />} exact />
           <Route path="/book/:id" element={<BookPage />} />
           <Route path="/allBooks" element={<AllBooks />} />
+          <Route path="/about" element={<AboutFullPage />} />
         </Routes>
       </Router>
     </div>

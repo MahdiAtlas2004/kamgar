@@ -6,10 +6,8 @@ const AllBooks = () => {
   return (
     <div>
       <Header />
-      <div className="distance">
-        <p className="mt-4"> a</p>
-      </div>
-      <div className="container">
+
+      <div style={{ marginTop: "10vh" }}>
         <Books />
       </div>
     </div>

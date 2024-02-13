@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
+import { LinkContainer } from "react-router-bootstrap";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -21,14 +22,17 @@ const About = () => {
         </Row>
         <Row className="gy-4 mt-2">
           <Col lg={5}>
-            <img data-aos="slide-up"
+            <img
+              data-aos="slide-up"
               src="./assets/images/5.jpeg"
-              alt="photo"
+              alt="about"
               className="img-fluid rounded about-image"
             />
           </Col>
           <Col lg={7} dir="rtl">
-            <h2 className="fw-bold kam-name" data-aos="zoom-in">حمیدالله کامگار</h2>
+            <h2 className="fw-bold kam-name" data-aos="zoom-in">
+              حمیدالله کامگار
+            </h2>
             <p dir="rtl" className="paragraph">
               تاریخ‌نگار، مقاله‌نویس، شاعر و پژوهش‌گرِ معاصر هرات؛ حمیدالله
               ‌کام‌گار در ۱۳۶۵ خورشیدی در شهرستان غوریان استان هرات متولد شد.
@@ -64,9 +68,11 @@ const About = () => {
               دارا همکار بوده، چندین مقالۀ تحقیقی و پژوهشی‌اش در نشریات و مجلات:
               روزنامۀ اتفاق اسلام، معرفت، حامیان میراث فرهنگی، صدای جوان، آوای
               زن، مهاجر، دیار دارا، نوید و غیره منتشر شده است.
-              <Button variant="Link text-primary" className="learnMore">
-                معلومات بیشتر...
-              </Button>
+              <LinkContainer to="/about">
+                <Button variant="Link text-primary" className="learnMore" type="button">
+                  معلومات بیشتر...
+                </Button>
+              </LinkContainer>
             </p>
           </Col>
         </Row>
