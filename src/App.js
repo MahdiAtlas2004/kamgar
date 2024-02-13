@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import BookPage from "./pages/BookPage/BookPage";
 // import Footer from "./components/Footer/Footer";
 import Layout from "./pages/Layout/Layout";
+import AllBooks from "./pages/AllBooks/AllBooks";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Layout />} exact />
           <Route path="/book/:id" element={<BookPage />} />
+          <Route path="/allBooks" element={<AllBooks />} />
         </Routes>
       </Router>
     </div>

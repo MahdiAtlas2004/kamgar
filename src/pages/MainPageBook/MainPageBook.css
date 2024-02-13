@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("/public/assets/fonts/Vazir.eot");
+    /* IE9 Compat Modes */
+    src: url("/public/assets/fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+      url("/public/assets/fonts/Vazir.woff2") format("woff2"),
+      url("/public/assets/fonts/Vazir.woff") format("woff"),
+      url("/public/assets/fonts/Vazir.ttf") format("truetype");
+    /* Safari, Android, iOS */
+  }
+
+.books-section {
+    font-family: "Vazir" !important;
+}
+
+.my-header {
+    color: rgb(0, 52, 89) !important;
+}
+
+.heading-line::before {
+  content: "";
+  width: 10rem;
+  height: 0.1rem;
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(0, 168, 232);
+}
+
+.heading-line::after {
+  content: "";
+  width: 2rem;
+  height: 0.4rem;
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(0, 168, 232);
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.more-image {
+  display: block;
+  width: 100%;
+  height: 54.5vh;
+  margin: 0;
+}
+
+.overlay {
+  padding-top: 40%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #0c0c0c;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  height: 100%;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.overlay:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.cricle-div {
+  width: 40%;
+  margin: auto;
+}
+
+.icons {
+  display: block;
+  position: relative;
+  margin-top: 50vh !important;
+}
+
+.myCol {
+  width: 30%;
+}

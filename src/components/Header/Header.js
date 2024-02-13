@@ -1,7 +1,7 @@
 import React from "react";
-import { Link, Outlet } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
-import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
+import { Container, Navbar, Nav} from "react-bootstrap";
 
 import './Header.css'; 
 // bg-body-tertiary
@@ -9,7 +9,9 @@ const Header = () => {
   return (
     <Navbar collapseOnSelect expand="lg" className="nav-bg fixed-top">
       <Container>
-        <Navbar.Brand href="#home" className="navBrand">Kamgar Info Website</Navbar.Brand>
+        <LinkContainer to="/">
+          <Navbar.Brand className="navBrand">Kamgar Info Website</Navbar.Brand>
+        </LinkContainer>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
 

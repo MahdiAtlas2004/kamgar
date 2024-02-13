@@ -13,11 +13,11 @@ function Book({ book }) {
 
       <div className="detail-div mt-2 pe-2 pb-2">
         <div className="d-flex book-name">
-          <p>نام کتاب: &nbsp;</p>
+          <p className="name">نام کتاب: &nbsp;</p>
           {book.name}
         </div>
         <div className="d-flex">
-          <p>تاریخ انتشار: &nbsp;</p>
+          <p className="date">تاریخ انتشار: &nbsp;</p>
           {book.date}
         </div>
         <Link to={`/book/${book._id}`}>

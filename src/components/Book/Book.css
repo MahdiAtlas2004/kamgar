@@ -18,6 +18,11 @@
 .book-img{
     width: 100% !important;
     height: 40vh !important;
+    transition: all 0.5s;
+}
+
+.book-img:hover {
+    opacity: 0.5;
 }
 
 .detail-div {
@@ -43,6 +48,14 @@
 }
 
 .more-btn {
-    width: 90%;
-    margin-right: 3.2%;
+    width: 95%;
+    margin-right: 1.5%;
+}
+
+.name {
+    color: rgb(133, 230, 239);
+}
+
+.date {
+    color: rgb(133, 230, 239);
 }
