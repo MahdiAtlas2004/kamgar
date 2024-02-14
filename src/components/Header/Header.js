@@ -2,6 +2,7 @@ import React from "react";
 // import { Link } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
 import { Container, Navbar, Nav } from "react-bootstrap";
+// import logo from './logo1.jpg';
 
 import "./Header.css";
 // bg-body-tertiary
@@ -10,7 +11,7 @@ const Header = () => {
     <Navbar collapseOnSelect expand="lg" className="nav-bg fixed-top">
       <Container>
         <Navbar.Brand>
-          <img src="./assets/images/logo1.jpg" alt="logo" className="logo" />
+          <img src={require("./logo1.jpg")} alt="logo" className="logo" />
         </Navbar.Brand>
         <LinkContainer to="/">
           <Navbar.Brand className="navBrand">Kamgar Info Website</Navbar.Brand>
