@@ -10,6 +10,7 @@ import BookPage from "./pages/BookPage/BookPage";
 import Layout from "./pages/Layout/Layout";
 import AllBooks from "./pages/AllBooks/AllBooks";
 import AboutFullPage from "./pages/AboutFullPage/AboutFullPage";
+import Contact from "./pages/Contact/Contact";
 
 const App = () => {
   return (
@@ -20,6 +21,8 @@ const App = () => {
           <Route path="/book/:id" element={<BookPage />} />
           <Route path="/allBooks" element={<AllBooks />} />
           <Route path="/about" element={<AboutFullPage />} />
+          {/* <Route path="/articles" element={<AboutFullPage />} /> */}
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
     </div>

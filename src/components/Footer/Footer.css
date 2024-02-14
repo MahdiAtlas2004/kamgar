@@ -1,0 +1,25 @@
+.icons-div {
+    width: 20%;
+    margin: auto;
+}
+
+.icons-div i {
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(44, 51, 52);
+}
+
+.icons-div i:hover {
+    font-size: 20px;
+    background-color: gainsboro;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.my-footer {
+    background-image: linear-gradient(to right, rgb(0, 168, 232), rgb(0, 52, 89));
+}
+
+h6 a {
+    color: white;
+}

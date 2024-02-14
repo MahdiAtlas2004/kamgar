@@ -89,3 +89,33 @@
     flex-direction: column-reverse;
   }
 }
+
+@media only screen and (max-width: 820px) {
+  .book-container {
+    display: flex;
+    direction: ltr;
+  }
+
+  .more-image {
+      display: block;
+      width: 100%;
+      height: 36.5rem;
+      margin: 0;
+  }
+
+  .cricle-div {
+    width: 40%;
+    margin: auto;
+  }
+  
+  .icons {
+    display: block;
+    position: relative;
+    margin-top: 50vh !important;
+  }
+  
+  .myCol {
+    width: 30%;
+  }
+
+}

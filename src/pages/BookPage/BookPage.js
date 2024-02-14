@@ -5,10 +5,10 @@ import {
   Col,
   Image,
   ListGroup,
-  Button,
   ListGroupItem,
   Container,
 } from "react-bootstrap";
+import "./BookPage";
 
 import Header from "../../components/Header/Header";
 import books from "../../books";
@@ -40,7 +40,7 @@ const BookPage = () => {
               style={{
                 width: "100%",
                 height: "45vh",
-                boxShadow: "box-shadow: 2px 2px 1.4rem rgb(0, 52, 89);",
+                boxShadow: "box-shadow: 2px 2px 1.4rem rgb(0, 52, 89)",
               }}
             />
           </Col>
