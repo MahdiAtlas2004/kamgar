@@ -1,18 +1,11 @@
-.icons-div {
-    width: 20%;
-    margin: auto;
+.f-icon {
+    font-size: 1.5rem;
+    padding: 8px 6px;
+    color: rgb(0, 0, 0);
 }
 
-.icons-div i {
-    font-size: 20px;
-    padding: 10px;
-    color: rgb(44, 51, 52);
-}
-
-.icons-div i:hover {
-    font-size: 20px;
-    background-color: gainsboro;
-    border-radius: 50px;
+.f-icon:hover {
+    color: white;
     cursor: pointer;
 }
 
@@ -20,6 +13,10 @@
     background-image: linear-gradient(to right, rgb(0, 168, 232), rgb(0, 52, 89));
 }
 
-h6 a {
+.author-link {
     color: white;
+}
+
+.author-link:hover {
+    color: rgb(0, 0, 0);
 }

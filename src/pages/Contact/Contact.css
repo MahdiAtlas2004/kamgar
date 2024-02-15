@@ -22,10 +22,11 @@
 .icon {
   color: rgb(0, 168, 232);
   font-size: 2rem;
+  padding: 2%;
 }
 
 .link-Col {
- background-color: rgb(212, 219, 222);
+ background-color: rgba(230, 234, 236, 0.692);
  padding: 2%;
 }
 
