@@ -4,6 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import "./Home.css";
+import ITyped from "../../components/ITyped/ITyped";
 
 const Home = () => {
   useEffect(() => {
@@ -22,6 +23,7 @@ const Home = () => {
               src="./assets/images/1.JPG"
               className="homeImage"
               data-aos="fade-up"
+              alt="home-page"
             />
           </Col>
           <Col
@@ -30,7 +32,7 @@ const Home = () => {
           >
             <div className="homeTitle text-center" data-aos="fade-right">
               <h1>من حمیدالله کامگار هستم</h1>
-              <h2 dir="rtl">نویسنده، تاریخ شناس، شاعر...</h2>
+              <h2 dir="rtl">&nbsp;<ITyped /></h2>
             </div>
           </Col>
         </Row>

@@ -1,56 +1,64 @@
 @font-face {
-    font-family: "Vazir";
-    src: url("/public/assets/fonts/Vazir.eot");
-    /* IE9 Compat Modes */
-    src: url("/public/assets/fonts/Vazir.eot?#iefix") format("embedded-opentype"),
-      url("/public/assets/fonts/Vazir.woff2") format("woff2"),
-      url("/public/assets/fonts/Vazir.woff") format("woff"),
-      url("/public/assets/fonts/Vazir.ttf") format("truetype");
-    /* Safari, Android, iOS */
-  }
+  font-family: "Vazir";
+  src: url("/public/assets/fonts/Vazir.eot");
+  /* IE9 Compat Modes */
+  src: url("/public/assets/fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("/public/assets/fonts/Vazir.woff2") format("woff2"),
+    url("/public/assets/fonts/Vazir.woff") format("woff"),
+    url("/public/assets/fonts/Vazir.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: "Gulzar";
+    src: url(/public/assets/fonts/Gulzar/Gulzar-Regular.ttf);
+}
 
 .homeContainer {
-    font-family: "Vazir" !important;
-    width: 100%;
-    height: 93vh;
-    background: linear-gradient(to bottom, (rgb(0, 168, 232),
-    rgb(0, 52, 89)));
-    background-image: linear-gradient(to bottom, rgb(0, 168, 232),
-    rgb(0, 52, 89));
-    /* background-image: url("/public/assets/images/sea2.jpg"); */
-    background-position-x: initial;
-    background-position-y: initial;
-    background-size: 100% 95vh;
-    background-repeat: no-repeat;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: initial;
+  font-family: "Gulzar" !important;
+  width: 100%;
+  height: 93vh;
+  background: linear-gradient(to bottom, (rgb(0, 168, 232), rgb(0, 52, 89)));
+  background-image: linear-gradient(
+    to bottom,
+    rgb(0, 168, 232),
+    rgb(0, 52, 89)
+  );
+  /* background-image: url("/public/assets/images/sea2.jpg"); */
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: 100% 95vh;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
 }
 
 #home {
-    scroll-behavior: smooth !important;
+  scroll-behavior: smooth !important;
 }
 
-h1, h2 {
-    color: #ffffff;
+h1,
+h2 {
+  color: #ffffff;
 }
 
 .homeImage {
-    width: 78%;
-    height: 70vh;
-    border-radius: 50%;
-    box-shadow: 2px 2px 1.4rem rgb(0, 52, 89);
+  width: 78%;
+  height: 70vh;
+  border-radius: 50%;
+  box-shadow: 2px 2px 1.4rem rgb(0, 52, 89);
 }
 
 .homeTitle {
-    color: white;
+  color: white;
 }
 
 @media only screen and (max-width: 540px) {
-    .homeImage {
-        border-radius: 5px;
-        content: url("/public/assets/images/2of1.JPG");
-        width: 90%;
-    }
+  .homeImage {
+    border-radius: 5px;
+    content: url("/public/assets/images/2of1.JPG");
+    width: 90%;
+  }
 }
