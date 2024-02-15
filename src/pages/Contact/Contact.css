@@ -16,3 +16,17 @@
 .contact-div {
     font-family: "Vazir" !important;
 }
+
+/* rgb(0, 52, 89) */
+
+.icon {
+  color: rgb(0, 168, 232);
+  font-size: 2rem;
+}
+
+.link-Col {
+ background-color: rgb(212, 219, 222);
+ padding: 2%;
+}
+
+
