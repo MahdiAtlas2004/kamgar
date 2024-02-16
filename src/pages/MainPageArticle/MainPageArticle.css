@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Marhey";
+  src: url("/public/assets/fonts/Marhey/Marhey-VariableFont_wght.ttf");
+}
+
 .my-header {
     color: rgb(0, 52, 89) !important;
 }
@@ -22,15 +27,19 @@
 
 .article-card {
   height: 45vh !important;
-  background-image: linear-gradient(to right, rgb(0, 168, 232), rgb(0, 52, 89));
+  /* background-image: linear-gradient(to right, rgb(0, 168, 232), rgb(0, 52, 89)); */
+  background-color: rgb(0, 117, 163) !important;
   color: white !important;
+  box-shadow: 2px 2px 2px gray;
   font-family: "Gulzar";
+  text-align: center;
 }
 
 .card-title {
     text-align: center;
     font-size: 1.1rem !important;
-    font-family: "Vazir";
+    font-family: "Marhey";
+    color: black !important;
 }
 
 /* Overlay section */

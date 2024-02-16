@@ -18,7 +18,7 @@ const MainPageArticle = () => {
         <Row dir="rtl" className="mt-2 gy-4">
           {/* Card 1 */}
           <Col lg={3}>
-            <Card className="article-card">
+            <Card className="article-card" data-aos="fade-down">
               <Card.Header>
                 <Card.Title className="card-title">
                   معرفی، نقد و بررسی تذکره ی زرنگار
@@ -28,7 +28,7 @@ const MainPageArticle = () => {
                 <Card.Text>
                   موضوع: روایت دیروز، آئینه امروز، نوید فردا
                 </Card.Text>
-                <Card.Text>تاریخ انتشار: 23 حمل 1399 خورشیدی</Card.Text>
+                <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender"></i> تاریخ انتشار: 23 حمل 1399 خورشیدی </Card.Text>
                 <Card.Footer className="card-footer">
                   <Card.Text>منبع: روزنامه 8 صبح</Card.Text>
                   <Card.Text>صفحه: 5</Card.Text>
@@ -39,7 +39,7 @@ const MainPageArticle = () => {
 
           {/* Card 2 */}
           <Col lg={3}>
-            <Card className="article-card">
+            <Card className="article-card" data-aos="fade-up">
               <Card.Header>
                 <Card.Title className="card-title">
                   گوهرشاد بیگم زنی در حصار یک گنبد
@@ -47,7 +47,7 @@ const MainPageArticle = () => {
               </Card.Header>
               <Card.Body>
                 <Card.Text>موضوع: فرهنگی، تاریخی، هنری</Card.Text>
-                <Card.Text>تاریخ انتشار: سال هفتم، شماره‌ی نهم، زمستان 1399 خورشیدی</Card.Text>
+                <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender"></i> تاریخ انتشار: سال هفتم، شماره‌ی نهم، زمستان 1399 خورشیدی</Card.Text>
                 <Card.Footer>
                   <Card.Text>منبع: فصل‌نامه‌ی دیار دارا</Card.Text>
                   <Card.Text>صفحه: 19 - 26</Card.Text>
@@ -58,7 +58,7 @@ const MainPageArticle = () => {
 
           {/* Card 3 */}
           <Col lg={3}>
-            <Card className="article-card">
+            <Card className="article-card" data-aos="fade-down">
               <Card.Header>
                 <Card.Title className="card-title">
                 طاهریان فوشنج و نقش آنان در ضرب سکه
@@ -68,7 +68,7 @@ const MainPageArticle = () => {
                 <Card.Text>
                   موضوع: فرهنگی، تاریخی، هنری
                 </Card.Text>
-                <Card.Text>تاریخ انتشار: سال هشتم، شماره‌ی دهم، بهار 1400 خورشیدی خورشیدی</Card.Text>
+                <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender"></i>  تاریخ انتشار: سال هشتم، شماره‌ی دهم، بهار 1400 خورشیدی  </Card.Text>
                 <Card.Footer>
                   <Card.Text>منبع: فصل‌نامه‌ی دیار دارا </Card.Text>
                   <Card.Text>صفحه: 10 - 23</Card.Text>
@@ -79,7 +79,8 @@ const MainPageArticle = () => {
 
           {/* Card 4 */}
           <Col lg={3}>
-            <Card className="article-card">
+            <LinkContainer to="/articles">
+            <Card className="article-card" data-aos="fade-up">
               <Card.Header>
                 <Card.Title className="card-title">
                 خواجه محمد اسماعیل دارا و سرنوشت دیوانش
@@ -96,7 +97,7 @@ const MainPageArticle = () => {
                 </Card.Footer>
               </Card.Body>
               <div className="article-overlay">
-                  <Row className="icons mt-5">
+                  <Row className="icons mt-2">
                     <Col lg={12} className="d-flex justify-content-around ">
                       <div className="d-flex justify-content-around myCol">
                         <i className="fa fa-circle text-light"></i>
@@ -105,7 +106,7 @@ const MainPageArticle = () => {
                       </div>
                     </Col>
                   </Row>
-                  <Row>
+                  <Row className="mt-3">
                     <Col
                       lg={12}
                       className="d-flex justify-content-center text-light"
@@ -115,7 +116,7 @@ const MainPageArticle = () => {
                   </Row>
                 </div>
             </Card>
-            
+            </LinkContainer>
           </Col>
         </Row>
       </Container>
