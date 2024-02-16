@@ -1,20 +1,20 @@
 @font-face {
-    font-family: "Vazir";
-    src: url("/public/assets/fonts/Vazir.eot");
-    /* IE9 Compat Modes */
-    src: url("/public/assets/fonts/Vazir.eot?#iefix") format("embedded-opentype"),
-      url("/public/assets/fonts/Vazir.woff2") format("woff2"),
-      url("/public/assets/fonts/Vazir.woff") format("woff"),
-      url("/public/assets/fonts/Vazir.ttf") format("truetype");
-    /* Safari, Android, iOS */
-  }
+  font-family: "Vazir";
+  src: url("/public/assets/fonts/Vazir.eot");
+  /* IE9 Compat Modes */
+  src: url("/public/assets/fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("/public/assets/fonts/Vazir.woff2") format("woff2"),
+    url("/public/assets/fonts/Vazir.woff") format("woff"),
+    url("/public/assets/fonts/Vazir.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
 
 .books-section {
-    font-family: "Vazir" !important;
+  font-family: "Vazir" !important;
 }
 
 .my-header {
-    color: rgb(0, 52, 89) !important;
+  color: rgb(0, 52, 89) !important;
 }
 
 .heading-line::before {
@@ -40,24 +40,27 @@
   width: 100%;
 }
 
+/* More Image Section */
 .more-image {
   display: block;
-  width: 100%;
+  width: 105%;
   height: 54.5vh;
   margin: 0;
+  padding: 0;
 }
 
+/* Overlay section */
 .overlay {
   padding-top: 40%;
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: 3.1% !important;
   right: 0;
   background-color: #2f2e2e;
   overflow: hidden;
-  width: 100%;
+  width: 97.2% !important;
   height: 100%;
-  transition: .5s ease;
+  transition: 0.5s ease;
   height: 100%;
   opacity: 0.9;
   border-radius: 4px;
@@ -83,10 +86,24 @@
   width: 30%;
 }
 
+/* Setting size for small screens */
 @media only screen and (max-width: 576px) {
   .book-container {
     display: flex;
     flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  .overlay {
+    top: 0;
+    width: 100% !important;
+    left: 0 !important;
+    height: 100%;
+  }
+  .more-image {
+    height: 90% !important;
+
   }
 }
 
@@ -97,25 +114,24 @@
   }
 
   .more-image {
-      display: block;
-      width: 100%;
-      height: 36.5rem;
-      margin: 0;
+    display: block;
+    width: 100%;
+    height: 36.5rem;
+    margin: 0;
   }
 
   .cricle-div {
     width: 40%;
     margin: auto;
   }
-  
+
   .icons {
     display: block;
     position: relative;
     margin-top: 50vh !important;
   }
-  
+
   .myCol {
     width: 30%;
   }
-
 }

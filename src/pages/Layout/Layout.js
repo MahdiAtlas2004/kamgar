@@ -4,6 +4,7 @@ import Home from "../Home/Home";
 import About from "../About/About";
 import MainPageBook from "../MainPageBook/MainPageBook";
 import Footer from "../../components/Footer/Footer";
+import MainPageArticle from "../MainPageArticle/MainPageArticle";
 
 const Layout = () => {
   return (
@@ -12,6 +13,7 @@ const Layout = () => {
       <Home />
       <About />
       <MainPageBook />
+      <MainPageArticle />
       <Footer />
     </div>
   );

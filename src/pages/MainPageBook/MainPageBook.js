@@ -48,7 +48,7 @@ const MainPageBook = () => {
               </div>
             </Col>
           </LinkContainer>
-          
+
           <Col sm={12} md={6} lg={3} key={books[1]._id}>
             <Book book={books[1]} />
           </Col>

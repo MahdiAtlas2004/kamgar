@@ -10,9 +10,11 @@ const Header = () => {
   return (
     <Navbar collapseOnSelect expand="lg" className="nav-bg fixed-top">
       <Container>
-        <Navbar.Brand>
-          <img src={require("./logo1.jpg")} alt="logo" className="logo" />
-        </Navbar.Brand>
+        <LinkContainer to="/">
+          <Navbar.Brand>
+            <img src={require("./logo1.jpg")} alt="logo" className="logo" />
+          </Navbar.Brand>
+        </LinkContainer>
         <LinkContainer to="/">
           <Navbar.Brand className="navBrand">Kamgar Info Website</Navbar.Brand>
         </LinkContainer>
@@ -24,15 +26,11 @@ const Header = () => {
           {/* This is our main menue */}
           <Nav>
             <LinkContainer to="/contact">
-              <Nav.Link className="myLink">
-                ارتباط با من
-              </Nav.Link>
+              <Nav.Link className="myLink">ارتباط با من</Nav.Link>
             </LinkContainer>
 
             <LinkContainer to="/articles">
-              <Nav.Link className="myLink">
-                مقالات
-              </Nav.Link>
+              <Nav.Link className="myLink">مقالات</Nav.Link>
             </LinkContainer>
 
             <LinkContainer to="/allBooks">

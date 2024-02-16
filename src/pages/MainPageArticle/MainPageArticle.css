@@ -1,0 +1,67 @@
+.my-header {
+    color: rgb(0, 52, 89) !important;
+}
+
+.heading-line::before {
+  content: "";
+  width: 10rem;
+  height: 0.1rem;
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(0, 168, 232);
+}
+
+.heading-line::after {
+  content: "";
+  width: 2rem;
+  height: 0.4rem;
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(0, 168, 232);
+}
+
+.article-card {
+  height: 45vh !important;
+  background-image: linear-gradient(to right, rgb(0, 168, 232), rgb(0, 52, 89));
+  color: white !important;
+  font-family: "Gulzar";
+}
+
+.card-title {
+    text-align: center;
+    font-size: 1.1rem !important;
+    font-family: "Vazir";
+}
+
+/* Overlay section */
+.article-overlay {
+  padding-top: 40%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #2f2e2e;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  height: 100%;
+  opacity: 0.9;
+  border-radius: 4px;
+}
+
+.article-overlay:hover {
+  background-color: rgb(82, 87, 87);
+  cursor: pointer;
+}
+
+.icons {
+  display: block;
+  position: relative;
+  margin-top: 50vh !important;
+}
+
+.myCol {
+  width: 30%;
+}
+
