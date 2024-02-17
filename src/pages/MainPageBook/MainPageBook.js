@@ -21,7 +21,7 @@ const MainPageBook = () => {
           <LinkContainer to="allBooks">
             <Col sm={12} md={6} lg={3} key={books[0]._id} data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
+     data-aos-duration="2000" data-aos-delay="400">
               <div className="container mt-3 rounded">
                 <img
                   src="./assets/images/book7.jpg"
@@ -53,19 +53,19 @@ const MainPageBook = () => {
 
           <Col sm={12} md={6} lg={3} key={books[1]._id} data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
+     data-aos-duration="2000" data-aos-delay="300">
             <Book book={books[1]} />
           </Col>
 
           <Col sm={12} md={6} lg={3} key={books[2]._id} data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
+     data-aos-duration="2000" data-aos-delay="200">
             <Book book={books[2]} />
           </Col>
 
           <Col sm={12} md={6} lg={3} key={books[3]._id} data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
+     data-aos-duration="2000" data-aos-delay="100">
             <Book book={books[3]} />
           </Col>
         </Row>
