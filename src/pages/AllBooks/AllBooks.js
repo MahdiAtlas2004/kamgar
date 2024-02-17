@@ -2,6 +2,7 @@ import React from "react";
 import Books from "../Books/Books";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
+import BackToTopButton from "../../components/BackToTopButton/BackToTopButton";
 
 const AllBooks = () => {
   return (
@@ -13,6 +14,7 @@ const AllBooks = () => {
       </div>
 
       <Footer />
+      <BackToTopButton />
     </div>
   );
 };

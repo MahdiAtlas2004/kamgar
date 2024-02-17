@@ -4,6 +4,7 @@ import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 
 import "./AboutFullPage.css";
+import BackToTopButton from "../../components/BackToTopButton/BackToTopButton";
 
 const AboutFullPage = () => {
   return (
@@ -171,6 +172,7 @@ const AboutFullPage = () => {
         </Row>
       </Container>
       <Footer />
+      <BackToTopButton />
     </div>
   );
 };

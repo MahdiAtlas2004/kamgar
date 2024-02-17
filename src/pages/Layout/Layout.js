@@ -6,6 +6,7 @@ import MainPageBook from "../MainPageBook/MainPageBook";
 import Footer from "../../components/Footer/Footer";
 import MainPageArticle from "../MainPageArticle/MainPageArticle";
 import MainPageContact from "../MainPageContact/MainPageContact";
+import BackToTopButton from "../../components/BackToTopButton/BackToTopButton";
 
 const Layout = () => {
   return (
@@ -17,6 +18,7 @@ const Layout = () => {
       <MainPageArticle />
       <MainPageContact />
       <Footer />
+      <BackToTopButton />
     </div>
   );
 };

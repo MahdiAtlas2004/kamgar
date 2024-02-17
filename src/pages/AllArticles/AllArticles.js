@@ -4,6 +4,7 @@ import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 
 import './AllArticles.css';
+import BackToTopButton from "../../components/BackToTopButton/BackToTopButton";
 
 const AllArticles = () => {
   return (
@@ -229,10 +230,9 @@ const AllArticles = () => {
             
           </Col>
         </Row>
-
-
       </Container>
     <Footer />
+    <BackToTopButton />
     </div>
   );
 };
