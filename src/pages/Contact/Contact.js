@@ -73,7 +73,7 @@ const Contact = () => {
                 </Row>
               </Col>
 
-              {/* Telegram Channel */}
+              {/* Whatsapp */}
               <Col md={5} className="link-Col">
                 <Row>
                   <Col lg={12}>
@@ -105,6 +105,8 @@ const Contact = () => {
                     <a
                       href="https://t.me/Hamidkamgar"
                       style={{ textDecoration: "none" }}
+                      rel="noopener noreferrer"
+                      target="_blank"
                     >
                       نگارستان کامگار
                     </a>
@@ -126,6 +128,8 @@ const Contact = () => {
                   <Col lg={12}>
                     <a
                       href="https://www.facebook.com/profile.php?id=100021681229637&mibextid=ZbWKwL"
+                      rel="noopener noreferrer"
+                      target="_blank"
                       style={{ textDecoration: "none" }}
                     >
                       کتابخانه کامگار
