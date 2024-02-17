@@ -1,6 +1,5 @@
 .nav-bg {
-  background: linear-gradient(to right, (rgb(0, 168, 232),
-    rgb(0, 52, 89)));
+  background: linear-gradient(to right, (rgb(0, 168, 232), rgb(0, 52, 89)));
   background-image: linear-gradient(to right, rgb(0, 168, 232), rgb(0, 52, 89));
   background-position-x: initial;
   background-position-y: initial;
@@ -32,10 +31,9 @@ img.logo {
 }
 
 .myLink:hover {
-  color: rgb(143, 143, 149) !important;
+  color: rgba(0, 174, 255, 0.543) !important;
   text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
-
 
 @media only screen and (max-width: 540px) {
   .nav-bg {
@@ -59,12 +57,13 @@ img.logo {
     margin: 0 !important;
   }
 
-  .logo{
+  .logo {
     width: 30px !important;
     height: 30px !important;
   }
 }
 
-
-
-
+.active {
+  font-weight: bolder !important;
+  color: rgb(0, 200, 255) !important;
+}

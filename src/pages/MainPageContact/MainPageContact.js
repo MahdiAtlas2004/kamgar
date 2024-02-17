@@ -5,7 +5,7 @@ import { Container, Row, Col, Button, Form, Card } from "react-bootstrap";
 
 const MainPageContact = () => {
   return (
-    <div>
+    <div className='contact-div'>
       <Container style={{ marginTop: "10vh" }} className="myContainer">
         {/* Title Row */}
         <Row>

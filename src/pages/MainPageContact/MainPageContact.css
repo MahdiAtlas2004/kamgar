@@ -1,0 +1,32 @@
+.myHeader {
+    color: rgb(0, 52, 89) !important;
+  }
+  
+  @font-face {
+    font-family: "Vazir";
+    src: url("/public/assets/fonts/Vazir.eot");
+    /* IE9 Compat Modes */
+    src: url("/public/assets/fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+      url("/public/assets/fonts/Vazir.woff2") format("woff2"),
+      url("/public/assets/fonts/Vazir.woff") format("woff"),
+      url("/public/assets/fonts/Vazir.ttf") format("truetype");
+    /* Safari, Android, iOS */
+  }
+  
+  .contact-div {
+      font-family: "Vazir" !important;
+      overflow-x: hidden;
+  }
+  
+  /* rgb(0, 52, 89) */
+  
+  .icon {
+    color: rgb(0, 168, 232);
+    font-size: 2rem;
+    padding: 2%;
+  }
+  
+  .link-Col {
+   background-color: rgba(230, 234, 236, 0.692);
+   padding: 2%;
+  }

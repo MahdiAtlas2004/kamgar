@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
 import { Container, Navbar, Nav } from "react-bootstrap";
 // import logo from './logo1.jpg';
@@ -15,9 +15,7 @@ const Header = () => {
             <img src={require("./logo1.jpg")} alt="logo" className="logo" />
           </Navbar.Brand>
         </LinkContainer>
-        <LinkContainer to="/">
           <Navbar.Brand className="navBrand">Kamgar Info Website</Navbar.Brand>
-        </LinkContainer>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           {/* This is the space between Title and Tabs */}
