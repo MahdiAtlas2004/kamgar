@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import {
   Row,
   Col,
@@ -11,6 +11,7 @@ import {
 import "./BookPage";
 
 import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 import books from "../../books";
 
 const BookPage = () => {
@@ -51,13 +52,11 @@ const BookPage = () => {
             <ListGroup variant="flush">
               <ListGroupItem dir="rtl"><b>تاریخ انتشار: {book.date}</b></ListGroupItem>
               <ListGroupItem dir="rtl">{book.description}</ListGroupItem>
-                <Link dir="rtl" to="/allBooks" className="btn btn-primary my-3 mt-2 backButton">
-                  بازگشت به صفحه قبلی
-                </Link>
             </ListGroup>
           </Col>
         </Row>
       </Container>
+      <Footer />
     </div>
   );
 };

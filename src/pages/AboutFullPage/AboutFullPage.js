@@ -1,6 +1,9 @@
 import React from "react";
 import { Container, Row, Col, Carousel } from "react-bootstrap";
 import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
+
+import "./AboutFullPage.css";
 
 const AboutFullPage = () => {
   return (
@@ -167,6 +170,7 @@ const AboutFullPage = () => {
           </Col>
         </Row>
       </Container>
+      <Footer />
     </div>
   );
 };
