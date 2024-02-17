@@ -1,11 +1,9 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
 import { Container, Navbar, Nav } from "react-bootstrap";
-// import logo from './logo1.jpg';
 
 import "./Header.css";
-// bg-body-tertiary
+
 const Header = () => {
   return (
     <Navbar collapseOnSelect expand="lg" className="nav-bg fixed-top">
