@@ -31,8 +31,8 @@ const Home = () => {
             className="d-flex align-items-center justify-content-center"
           >
             <div className="homeTitle text-center" data-aos="fade-right">
-              <h1>من حمیدالله کامگار هستم</h1>
-              <h2 dir="rtl">&nbsp;<ITyped /></h2>
+              <h1 className="home-h1">من حمیدالله کامگار هستم</h1>
+              <h2 dir="rtl" className="home-h2">&nbsp;<ITyped /></h2>
             </div>
           </Col>
         </Row>

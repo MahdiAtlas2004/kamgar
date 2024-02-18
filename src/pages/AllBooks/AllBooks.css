@@ -1,0 +1,10 @@
+.all-books {
+    margin-top: 10vh;
+}
+
+/* iPad Pro */
+@media only screen and (max-width: 1024px) {
+    .all-books {
+        margin-bottom: 15.5vh;
+    }
+}

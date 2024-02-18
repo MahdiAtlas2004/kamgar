@@ -59,3 +59,10 @@
 .date {
     color: rgb(133, 230, 239);
 }
+
+/* iPad Pro */
+@media only screen and (max-width: 1024px) {
+    .book-img {
+        height: 22.1vh !important;
+    }
+}

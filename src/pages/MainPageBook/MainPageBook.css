@@ -103,7 +103,6 @@
   }
   .more-image {
     height: 90% !important;
-
   }
 }
 
@@ -133,5 +132,56 @@
 
   .myCol {
     width: 30%;
+  }
+}
+
+/* iPad Mini */
+@media only screen and (max-width: 768px) {
+  .more-image {
+    height: 50.5vh;
+  }
+
+  .icons {
+    padding-top: 55px !important;
+  }
+}
+
+/* iPad Pro */
+@media only screen and (max-width: 1024px) {
+  .more-image {
+    height: 30vh;
+  }
+
+  .icons {
+    padding-top: 40px;
+  }
+}
+
+/* Surface Pro 7 */
+@media only screen and (max-width: 912px) {
+  .more-image {
+    height: 30vh;
+  }
+
+  .icons {
+    padding-top: 20px;
+  }
+}
+
+/* Surface Duo */
+@media only screen and (max-width: 540px) {
+  .more-image {
+    height: 30vh;
+    width: 105%;
+    margin-left: -11.2px !important;
+  }
+
+  .overlay {
+    width: 100% !important;
+    left: 0% !important;
+  }
+
+  .icons {
+    padding-top: 40px !important;
   }
 }

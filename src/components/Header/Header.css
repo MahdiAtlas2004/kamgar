@@ -67,3 +67,30 @@ img.logo {
   font-weight: bolder !important;
   color: rgb(0, 200, 255) !important;
 }
+
+/* Samsung Galaxy S8+ size */
+@media only screen and (max-width: 360px) {
+  .logo {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .navBrand {
+    margin-right: 5px;
+    font-size: 20px !important;
+  }
+}
+
+/* iPad Mini */
+@media only screen and (max-width: 768px) {
+  .nav-bg {
+    direction: rtl;
+  }
+}
+
+/* Surface Pro 7 */
+@media only screen and (max-width: 912px) {
+  .nav-bg {
+    direction: rtl;
+  }
+}

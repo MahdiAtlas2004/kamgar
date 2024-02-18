@@ -42,7 +42,7 @@ const Contact = () => {
           className="mt-5 d-flex justify-content-center align-items-center mb-4"
           dir="rtl"
         >
-          <Col lg={6}>
+          <Col lg={6} className="col-contact">
             <Row dir="rtl" className="gy-4 mb-4 d-flex justify-content-center">
               {/* Location */}
               <Col md={5} className="link-Col ms-4">
@@ -159,7 +159,7 @@ const Contact = () => {
           </Col>
 
           {/* Form Column */}
-          <Col lg={6}>
+          <Col lg={6} className="col-form">
             <Card className="p-3" border="primary" bg="light">
               <Form dir="rtl" className="myForm" border="primary" onSubmit={sendEmail}>
                 <Form.Group className="mb-3" controlId="formName">

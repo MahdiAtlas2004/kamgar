@@ -96,10 +96,11 @@ const MainPageArticle = () => {
                   <Card.Text>صفحه: 67 - 75</Card.Text>
                 </Card.Footer>
               </Card.Body>
+              {/* Overlay section for veiwing all cards */}
               <div className="article-overlay">
-                  <Row className="icons mt-2">
+                  <Row className="article-icons mt-2">
                     <Col lg={12} className="d-flex justify-content-around ">
-                      <div className="d-flex justify-content-around myCol">
+                      <div className="d-flex justify-content-around myCol-article">
                         <i className="fa fa-circle text-light"></i>
                         <i className="fa fa-circle text-light"></i>
                         <i className="fa fa-circle text-light"></i>
@@ -111,7 +112,7 @@ const MainPageArticle = () => {
                       lg={12}
                       className="d-flex justify-content-center text-light"
                     >
-                      <p>مشاهده موارد بیشتر</p>
+                      <p className="more-text">مشاهده موارد بیشتر</p>
                     </Col>
                   </Row>
                 </div>

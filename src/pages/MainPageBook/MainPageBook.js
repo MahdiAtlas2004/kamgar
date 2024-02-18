@@ -19,18 +19,26 @@ const MainPageBook = () => {
 
         <Row className="book-container">
           <LinkContainer to="allBooks">
-            <Col sm={12} md={6} lg={3} key={books[0]._id} data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" data-aos-delay="400">
+            <Col
+              sm={12}
+              md={6}
+              lg={3}
+              key={books[0]._id}
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              data-aos-delay="400"
+            >
               <div className="container mt-3 rounded">
                 <img
                   src="./assets/images/book7.jpg"
                   alt="myPhoto"
                   className="more-image rounded"
                 />
+                {/* This is overlay part where other books placed */}
                 <div className="overlay">
                   <Row className="icons mt-5">
-                    <Col lg={12} className="d-flex justify-content-around ">
+                    <Col lg={12} className="d-flex justify-content-around">
                       <div className="d-flex justify-content-around myCol">
                         <i className="fa fa-circle text-light"></i>
                         <i className="fa fa-circle text-light"></i>
@@ -51,21 +59,42 @@ const MainPageBook = () => {
             </Col>
           </LinkContainer>
 
-          <Col sm={12} md={6} lg={3} key={books[1]._id} data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" data-aos-delay="300">
+          <Col
+            sm={12}
+            md={6}
+            lg={3}
+            key={books[1]._id}
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            data-aos-delay="300"
+          >
             <Book book={books[1]} />
           </Col>
 
-          <Col sm={12} md={6} lg={3} key={books[2]._id} data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" data-aos-delay="200">
+          <Col
+            sm={12}
+            md={6}
+            lg={3}
+            key={books[2]._id}
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            data-aos-delay="200"
+          >
             <Book book={books[2]} />
           </Col>
 
-          <Col sm={12} md={6} lg={3} key={books[3]._id} data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" data-aos-delay="100">
+          <Col
+            sm={12}
+            md={6}
+            lg={3}
+            key={books[3]._id}
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            data-aos-delay="100"
+          >
             <Book book={books[3]} />
           </Col>
         </Row>
