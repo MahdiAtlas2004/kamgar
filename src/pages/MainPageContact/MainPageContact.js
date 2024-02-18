@@ -1,11 +1,32 @@
-import React from 'react';
+import React from "react";
 import { Container, Row, Col, Button, Form, Card } from "react-bootstrap";
-// import "@fortawesome/fontawesome-free/css/all.min.css";
-
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import emailjs from '@emailjs/browser';
 
 const MainPageContact = () => {
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_8p9li7p",
+        "template_9p4fx3j",
+        e.target,
+        "Phj6W0Xc1igo9lqXE"
+      )
+      .then((response) => {
+        console.log("Email successfully sent!", response);
+        // This command reset the form after submiting
+        e.target.reset();
+      })
+      .catch((error) => {
+        console.error("Error sending email:", error);
+        //Error message.
+      });
+  };
+
   return (
-    <div className='contact-div'>
+    <div className="contact-div">
       <Container style={{ marginTop: "10vh" }} className="myContainer">
         {/* Title Row */}
         <Row>
@@ -135,15 +156,15 @@ const MainPageContact = () => {
           {/* Form Column */}
           <Col lg={6} data-aos="zoom-out">
             <Card className="p-3" border="primary" bg="light">
-              <Form dir="rtl" className="myForm" border="primary">
+              <Form dir="rtl" className="myForm" border="primary" onSubmit={sendEmail}>
                 <Form.Group className="mb-3" controlId="formName">
                   <Form.Label>اسم</Form.Label>
-                  <Form.Control type="text" placeholder="اسم" />
+                  <Form.Control type="text" placeholder="اسم" name="email_from"/>
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formEmail">
                   <Form.Label>ایمیل</Form.Label>
-                  <Form.Control type="email" placeholder="ایمیل" />
+                  <Form.Control type="email" placeholder="ایمیل" name="user_email"/>
                   <Form.Text className="text-muted">
                     ما هرگز ایمیل شما را با دیگران به اشتراک نخواهیم گذاشت.
                   </Form.Text>
@@ -151,12 +172,12 @@ const MainPageContact = () => {
 
                 <Form.Group className="mb-3" controlId="formContext">
                   <Form.Label>موضوع</Form.Label>
-                  <Form.Control type="text" placeholder="موضوع" />
+                  <Form.Control type="text" placeholder="موضوع" name="content"/>
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formTextarea">
                   <Form.Label>پیام شما</Form.Label>
-                  <Form.Control as="textarea" rows={3} />
+                  <Form.Control as="textarea" rows={3} name="message"/>
                 </Form.Group>
 
                 <Button variant="primary" type="submit">
@@ -168,7 +189,7 @@ const MainPageContact = () => {
         </Row>
       </Container>
     </div>
-  )
-}
+  );
+};
 
 export default MainPageContact;

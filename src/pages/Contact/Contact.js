@@ -14,12 +14,12 @@ const Contact = () => {
     emailjs.sendForm('service_8p9li7p', 'template_9p4fx3j', e.target, 'Phj6W0Xc1igo9lqXE')
       .then((response) => {
         console.log('Email successfully sent!', response);
-        // Optionally, you can reset the form after successful submission
+        // This command reset the form after submiting
         e.target.reset();
       })
       .catch((error) => {
         console.error('Error sending email:', error);
-        // Optionally, you can display an error message to the user
+        //Error message.
       });
   };
   
@@ -169,7 +169,7 @@ const Contact = () => {
 
                 <Form.Group className="mb-3" controlId="formEmail">
                   <Form.Label>ایمیل</Form.Label>
-                  <Form.Control type="email" placeholder="ایمیل" />
+                  <Form.Control type="email" placeholder="ایمیل" name="user_email"/>
                   <Form.Text className="text-muted">
                     ما هرگز ایمیل شما را با دیگران به اشتراک نخواهیم گذاشت.
                   </Form.Text>
@@ -177,7 +177,7 @@ const Contact = () => {
 
                 <Form.Group className="mb-3" controlId="formContext">
                   <Form.Label>موضوع</Form.Label>
-                  <Form.Control type="text" placeholder="موضوع" />
+                  <Form.Control type="text" placeholder="موضوع" name="content"/>
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formTextarea">
