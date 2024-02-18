@@ -12,6 +12,8 @@ import "./BookPage";
 
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
+import BackToTopButton from "../../components/BackToTopButton/BackToTopButton";
+import SocialMediaIcons from "../../components/SocialMediaIcons/SocialMediaIcons";
 import books from "../../books";
 
 const BookPage = () => {
@@ -57,6 +59,8 @@ const BookPage = () => {
         </Row>
       </Container>
       <Footer />
+      <SocialMediaIcons />
+      <BackToTopButton />
     </div>
   );
 };

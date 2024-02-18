@@ -2,9 +2,10 @@ import React from "react";
 import { Container, Row, Col, Carousel } from "react-bootstrap";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
+import SocialMediaIcons from "../../components/SocialMediaIcons/SocialMediaIcons";
+import BackToTopButton from "../../components/BackToTopButton/BackToTopButton";
 
 import "./AboutFullPage.css";
-import BackToTopButton from "../../components/BackToTopButton/BackToTopButton";
 
 const AboutFullPage = () => {
   return (
@@ -20,7 +21,7 @@ const AboutFullPage = () => {
         </Row>
         <Row className="mt-4">
           <Col lg={12}>
-            <Carousel>
+            <Carousel className="slide-show">
               <Carousel.Item>
                 <img
                   className="d-block w-100 carousel-image"
@@ -172,6 +173,7 @@ const AboutFullPage = () => {
         </Row>
       </Container>
       <Footer />
+      <SocialMediaIcons />
       <BackToTopButton />
     </div>
   );

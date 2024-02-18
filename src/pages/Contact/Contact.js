@@ -3,9 +3,27 @@ import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import { Container, Row, Col, Button, Form, Card } from "react-bootstrap";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import emailjs from '@emailjs/browser';
+
 import "./Contact.css";
 
 const Contact = () => {
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs.sendForm('service_8p9li7p', 'template_9p4fx3j', e.target, 'Phj6W0Xc1igo9lqXE')
+      .then((response) => {
+        console.log('Email successfully sent!', response);
+        // Optionally, you can reset the form after successful submission
+        e.target.reset();
+      })
+      .catch((error) => {
+        console.error('Error sending email:', error);
+        // Optionally, you can display an error message to the user
+      });
+  };
+  
+
   return (
     <div className="contact-div">
       <Header />
@@ -143,10 +161,10 @@ const Contact = () => {
           {/* Form Column */}
           <Col lg={6}>
             <Card className="p-3" border="primary" bg="light">
-              <Form dir="rtl" className="myForm" border="primary">
+              <Form dir="rtl" className="myForm" border="primary" onSubmit={sendEmail}>
                 <Form.Group className="mb-3" controlId="formName">
                   <Form.Label>اسم</Form.Label>
-                  <Form.Control type="text" placeholder="اسم" />
+                  <Form.Control type="text" placeholder="اسم" name="email_from"/>
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formEmail">
@@ -164,7 +182,7 @@ const Contact = () => {
 
                 <Form.Group className="mb-3" controlId="formTextarea">
                   <Form.Label>پیام شما</Form.Label>
-                  <Form.Control as="textarea" rows={3} />
+                  <Form.Control as="textarea" rows={3} name="message" />
                 </Form.Group>
 
                 <Button variant="primary" type="submit">
