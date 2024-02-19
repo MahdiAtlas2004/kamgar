@@ -51,7 +51,7 @@ const MainPageBook = () => {
                       lg={12}
                       className="d-flex justify-content-center text-light"
                     >
-                      <p>مشاهده موارد بیشتر</p>
+                      <p className="more-p">مشاهده موارد بیشتر</p>
                     </Col>
                   </Row>
                 </div>

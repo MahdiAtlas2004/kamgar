@@ -30,3 +30,11 @@
    background-color: rgba(230, 234, 236, 0.692);
    padding: 2%;
   }
+
+  /* Galaxy Fold */
+@media only screen and (max-width: 280px) {
+  .link-Col {
+    margin-right: 20px !important;
+    width: 120%;
+  }
+}

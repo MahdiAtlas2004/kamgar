@@ -3,6 +3,8 @@ import { Container, Row, Col, Button, Form, Card } from "react-bootstrap";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import emailjs from '@emailjs/browser';
 
+import "./MainPageContact.css";
+
 const MainPageContact = () => {
 
   const sendEmail = (e) => {

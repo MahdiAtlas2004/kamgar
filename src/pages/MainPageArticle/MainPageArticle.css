@@ -126,3 +126,41 @@
     padding-top: 10%;
   }
 }
+
+/* Galaxy Fold */
+@media only screen and (max-width: 280px) {
+  .myCol-article {
+    margin-top: 55px !important;
+  }
+
+  .more-text {
+    margin-top: 0px !important;
+    font-size: 20px;
+  }
+
+  .article-card {
+    font-size: 10px !important;
+    height: 35vh !important;
+  }
+}
+
+/* Nest Hub */
+@media only screen and (max-width: 1024px) {
+  .myCol-article {
+    margin-top: 55px !important;
+  }
+
+  .more-text {
+    margin-top: 0px !important;
+    font-size: 20px;
+  }
+
+  .myCol-article {
+    margin-top: 0px !important;
+  }
+
+  .article-card {
+    font-size: 14px !important;
+    height: 40vh !important;
+  }
+}

@@ -78,3 +78,14 @@ h2 {
     font-size: 50px !important;
   }
 }
+
+/* Galaxy Fold */
+@media only screen and (max-width: 280px) {
+  .home-h1 {
+    font-size: 25px !important;
+  }
+
+  .home-h2 {
+    font-size: 22px !important;
+  }
+}

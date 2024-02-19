@@ -94,3 +94,14 @@ img.logo {
     direction: rtl;
   }
 }
+
+/* Galaxy Fold */
+@media only screen and (max-width: 280px) {
+  .nav-bg {
+    font-size: 10px !important;
+  }
+
+  .navBrand {
+    font-size: 15px !important;
+  }
+}
