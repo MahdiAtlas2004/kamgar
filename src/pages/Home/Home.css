@@ -69,14 +69,6 @@ h2 {
     border-radius: 5px;
     content: url("/public/assets/images/2of1.JPG");
   }
-
-  .home-h1 {
-    font-size: 60px !important;
-  }
-
-  .home-h2 {
-    font-size: 50px !important;
-  }
 }
 
 /* Galaxy Fold */
@@ -88,4 +80,9 @@ h2 {
   .home-h2 {
     font-size: 22px !important;
   }
+}
+
+/* iPhone 12 Pro */
+@media only screen and (max-width: 390px) {
+  
 }

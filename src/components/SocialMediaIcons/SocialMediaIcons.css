@@ -17,15 +17,28 @@
     border-radius: 50%;
     margin-bottom: 10px;
     color: #fff;
-    background-color: #007bff;
+    background-color: #ffffff;
     font-size: 20px;
     transition: background-color 0.3s;
   }
   
   .social-icon:hover {
-    background-color: #0056b3;
+    background-color: #000000;
   }
-  
+
+ .facebook-icon{
+  color: #1877F2;
+ }
+
+ .telegram-icon {
+  color: #0088cc;
+ }
+
+ .whatsapp-icon {
+  color: #25D366;
+ }
+ 
+  /* This media query will disapear icons in small screen sizes */
   @media (max-width: 768px) {
     .social-media-icons {
       display: none; /* Hide the icons on small screens */

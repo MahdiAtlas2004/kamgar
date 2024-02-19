@@ -3,26 +3,45 @@ import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import { Container, Row, Col, Button, Form, Card } from "react-bootstrap";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2";
 
 import "./Contact.css";
 
 const Contact = () => {
-
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_8p9li7p', 'template_9p4fx3j', e.target, 'Phj6W0Xc1igo9lqXE')
+    emailjs
+      .sendForm(
+        "service_8p9li7p",
+        "template_9p4fx3j",
+        e.target,
+        "Phj6W0Xc1igo9lqXE"
+      )
       .then((response) => {
-        console.log('Email successfully sent!', response);
+        console.log("Email successfully sent!", response);
+        // Display success message using SweetAlert
+        Swal.fire({
+          title: "موفقیت آمیز !",
+          text: "پیام شما موفقانه ارسال شد",
+          icon: "success",
+          confirmButtonText: "قبول",
+        });
         // This command reset the form after submiting
         e.target.reset();
       })
       .catch((error) => {
-        console.error('Error sending email:', error);
+        console.error("Error sending email:", error);
         //Error message.
+        // Display error message using SweetAlert
+        Swal.fire({
+          title: "خطا !",
+          text: "هنگام ارسال پیام به مشکل برخوردیم، لطفا دوباره امتحان کنید.",
+          icon: "error",
+          confirmButtonText: "قبول",
+        });
       });
   };
-  
 
   return (
     <div className="contact-div">
@@ -161,15 +180,28 @@ const Contact = () => {
           {/* Form Column */}
           <Col lg={6} className="col-form">
             <Card className="p-3" border="primary" bg="light">
-              <Form dir="rtl" className="myForm" border="primary" onSubmit={sendEmail}>
+              <Form
+                dir="rtl"
+                className="myForm"
+                border="primary"
+                onSubmit={sendEmail}
+              >
                 <Form.Group className="mb-3" controlId="formName">
                   <Form.Label>اسم</Form.Label>
-                  <Form.Control type="text" placeholder="اسم" name="email_from"/>
+                  <Form.Control
+                    type="text"
+                    placeholder="اسم"
+                    name="email_from"
+                  />
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formEmail">
                   <Form.Label>ایمیل</Form.Label>
-                  <Form.Control type="email" placeholder="ایمیل" name="user_email"/>
+                  <Form.Control
+                    type="email"
+                    placeholder="ایمیل"
+                    name="user_email"
+                  />
                   <Form.Text className="text-muted">
                     ما هرگز ایمیل شما را با دیگران به اشتراک نخواهیم گذاشت.
                   </Form.Text>
@@ -177,7 +209,11 @@ const Contact = () => {
 
                 <Form.Group className="mb-3" controlId="formContext">
                   <Form.Label>موضوع</Form.Label>
-                  <Form.Control type="text" placeholder="موضوع" name="content"/>
+                  <Form.Control
+                    type="text"
+                    placeholder="موضوع"
+                    name="content"
+                  />
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formTextarea">

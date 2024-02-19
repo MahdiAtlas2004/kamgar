@@ -5,13 +5,13 @@ const SocialMediaIcons = () => {
   return (
     <div className="social-media-icons">
       <a href="https://t.me/Hamid_Kamgar" target="_blank" rel="noopener noreferrer" className="social-icon telegram">
-        <i className="fab fa-telegram"></i>
+        <i className="fab fa-telegram telegram-icon"></i>
       </a>
       <a href="https://wa.me/0798478850" target="_blank" rel="noopener noreferrer" className="social-icon whatsapp">
-        <i className="fab fa-whatsapp"></i>
+        <i className="fab fa-whatsapp whatsapp-icon"></i>
       </a>
       <a href="https://www.facebook.com/hamidullah.feizi?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer" className="social-icon facebook">
-        <i className="fab fa-facebook-f"></i>
+        <i className="fab fa-facebook-f facebook-icon"></i>
       </a>
     </div>
   );
