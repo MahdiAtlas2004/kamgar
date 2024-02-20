@@ -16,6 +16,7 @@
   .contact-div {
       font-family: "Vazir" !important;
       overflow-x: hidden;
+      overflow-y: hidden;
   }
   
   /* rgb(0, 52, 89) */
