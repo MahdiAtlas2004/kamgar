@@ -2,6 +2,7 @@
     font-size: 1.5rem;
     padding: 8px 6px;
     color: rgb(0, 0, 0);
+    transition: color 0.3s;
 }
 
 .f-icon:hover {
@@ -15,6 +16,7 @@
 
 .author-link {
     color: white;
+    transition: color 0.3s;
 }
 
 .author-link:hover {

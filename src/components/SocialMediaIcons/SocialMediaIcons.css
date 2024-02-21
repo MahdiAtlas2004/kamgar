@@ -19,11 +19,11 @@
     color: #fff;
     background-color: #ffffff;
     font-size: 20px;
-    transition: background-color 0.3s;
+    transition: transform 0.3s;
   }
-  
+
   .social-icon:hover {
-    background-color: #000000;
+    transform: scale(1.5);
   }
 
  .facebook-icon{

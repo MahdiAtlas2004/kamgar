@@ -72,7 +72,7 @@ const AllArticles = () => {
                 <Card.Text>
                   موضوع: فرهنگی، تاریخی، هنری
                 </Card.Text>
-                <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender"></i> تاریخ انتشار: سال هشتم، شماره‌ی دهم، بهار 1400 خورشیدی خورشیدی</Card.Text>
+                <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender"></i> تاریخ انتشار: سال هشتم، شماره‌ی دهم، بهار 1400 خورشیدی </Card.Text>
                 <Card.Footer>
                   <Card.Text>منبع: فصل‌نامه‌ی دیار دارا </Card.Text>
                   <Card.Text>صفحه: 10 - 23</Card.Text>
@@ -115,7 +115,7 @@ const AllArticles = () => {
                 <Card.Text>
                   موضوع: ادبی - هنری
                 </Card.Text>
-                <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender"></i> تاریخ انتشار: سال سوم، شماره‌ی یازدهم، پاییز 1401 خورشیدی خورشیدی</Card.Text>
+                <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender"></i> تاریخ انتشار: سال سوم، شماره‌ی یازدهم، پاییز 1401 خورشیدی </Card.Text>
                 <Card.Footer className="card-footer">
                   <Card.Text>منبع: فصل‌نامه‌ی شمیره </Card.Text>
                   <Card.Text>صفحه: 111 – 157</Card.Text>
