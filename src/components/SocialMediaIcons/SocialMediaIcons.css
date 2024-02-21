@@ -1,47 +1,46 @@
 .social-media-icons {
-    position: fixed;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .social-icon {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    border-radius: 50%;
-    margin-bottom: 10px;
-    color: #fff;
-    background-color: #ffffff;
-    font-size: 20px;
-    transition: transform 0.3s;
-  }
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .social-icon:hover {
-    transform: scale(1.5);
-  }
+.social-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  color: #fff;
+  background-color: #ffffff;
+  font-size: 20px;
+  transition: transform 0.3s;
+}
 
- .facebook-icon{
-  color: #1877F2;
- }
+.social-icon:hover {
+  transform: scale(1.5);
+}
 
- .telegram-icon {
+.facebook-icon {
+  color: #1877f2;
+}
+
+.telegram-icon {
   color: #0088cc;
- }
+}
 
- .whatsapp-icon {
-  color: #25D366;
- }
- 
-  /* This media query will disapear icons in small screen sizes */
-  @media (max-width: 768px) {
-    .social-media-icons {
-      display: none; /* Hide the icons on small screens */
-    }
+.whatsapp-icon {
+  color: #25d366;
+}
+
+/* This media query will disapear icons in small screen sizes */
+@media (max-width: 768px) {
+  .social-media-icons {
+    display: none; /* Hide the icons on small screens */
   }
-  
+}

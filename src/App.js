@@ -12,11 +12,13 @@ import AllBooks from "./pages/AllBooks/AllBooks";
 import AboutFullPage from "./pages/AboutFullPage/AboutFullPage";
 import Contact from "./pages/Contact/Contact";
 import AllArticles from "./pages/AllArticles/AllArticles";
+import ScrollToTopOnMount from "./components/ScrollToTopOnMount/ScrollToTopOnMount";
 
 const App = () => {
   return (
     <div>
       <Router>
+        <ScrollToTopOnMount />
         <Routes>
           <Route path="/" element={<Layout />} exact />
           <Route path="/book/:id" element={<BookPage />} />
