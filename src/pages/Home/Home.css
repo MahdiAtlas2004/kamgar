@@ -10,8 +10,8 @@
 }
 
 @font-face {
-    font-family: "Gulzar";
-    src: url(/public/assets/fonts/Gulzar/Gulzar-Regular.ttf);
+  font-family: "Gulzar";
+  src: url(/public/assets/fonts/Gulzar/Gulzar-Regular.ttf);
 }
 
 .homeContainer {
@@ -24,7 +24,7 @@
     rgb(0, 168, 232),
     rgb(0, 52, 89)
   );
-  /* background-image: url("/public/assets/images/sea2.jpg"); */
+
   background-position-x: initial;
   background-position-y: initial;
   background-size: 100% 95vh;

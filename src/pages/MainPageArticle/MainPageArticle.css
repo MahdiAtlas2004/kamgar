@@ -74,6 +74,18 @@
   width: 30%;
 }
 
+/* iPhone 12 Pro */
+@media only screen and (max-width: 390px) {
+  .myCol-article {
+    margin-top: -10px !important;
+  }
+
+  .more-text {
+    margin-top: 0px !important;
+    font-size: 20px;
+  }
+}
+
 /* iPad Mini */
 @media only screen and (max-width: 768px) {
   .myCol-article {
@@ -112,7 +124,7 @@
 
 /* Surface Duo */
 @media only screen and (max-width: 540px) {
-  .myCol-article {
+  /* .myCol-article {
     margin-top: 0px !important;
   }
 
@@ -122,9 +134,8 @@
   }
 
   .article-overlay {
-    /* height: 20% !important; */
     padding-top: 10%;
-  }
+  } */
 }
 
 /* Galaxy Fold */

@@ -64,7 +64,7 @@ const Contact = () => {
           <Col lg={6} className="col-contact">
             <Row dir="rtl" className="gy-4 mb-4 d-flex justify-content-center">
               {/* Location */}
-              <Col md={5} className="link-Col ms-4">
+              <Col md={5} className="link-Col">
                 <Row>
                   <Col lg={12}>
                     <i className="fa-solid fa-location-dot icon"></i>
@@ -96,7 +96,7 @@ const Contact = () => {
 
             <Row dir="rtl" className="gy-4 mb-4 d-flex justify-content-center">
               {/* Email */}
-              <Col md={5} className="link-Col ms-4">
+              <Col md={5} className="link-Col">
                 <Row>
                   <Col lg={12}>
                     <i className="fa-solid fa-envelope icon"></i>
@@ -128,7 +128,7 @@ const Contact = () => {
 
             <Row dir="rtl" className="gy-4 mb-4 d-flex justify-content-center">
               {/* Telegram Channel */}
-              <Col md={5} className="link-Col ms-4">
+              <Col md={5} className="link-Col">
                 <Row>
                   <Col lg={12}>
                     <i className="fa-brands fa-telegram icon"></i>

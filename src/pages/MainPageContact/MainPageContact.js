@@ -60,7 +60,7 @@ const MainPageContact = () => {
           <Col lg={6}>
             <Row dir="rtl" className="gy-4 mb-4 d-flex justify-content-center">
               {/* Location */}
-              <Col md={5} className="link-Col ms-4" data-aos="zoom-in">
+              <Col md={5} className="link-Col" data-aos="zoom-in">
                 <Row>
                   <Col lg={12}>
                     <i className="fa-solid fa-location-dot icon"></i>
@@ -92,7 +92,7 @@ const MainPageContact = () => {
 
             <Row dir="rtl" className="gy-4 mb-4 d-flex justify-content-center">
               {/* Email */}
-              <Col md={5} className="link-Col ms-4" data-aos="zoom-in">
+              <Col md={5} className="link-Col" data-aos="zoom-in">
                 <Row>
                   <Col lg={12}>
                     <i className="fa-solid fa-envelope icon"></i>
@@ -124,7 +124,7 @@ const MainPageContact = () => {
 
             <Row dir="rtl" className="gy-4 mb-4 d-flex justify-content-center">
               {/* Telegram Channel */}
-              <Col md={5} className="link-Col ms-4" data-aos="zoom-in">
+              <Col md={5} className="link-Col" data-aos="zoom-in">
                 <Row>
                   <Col lg={12}>
                     <i className="fa-brands fa-telegram icon"></i>
