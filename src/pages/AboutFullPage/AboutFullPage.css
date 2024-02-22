@@ -33,6 +33,10 @@
   box-shadow: 2px 2px 1.4rem rgb(0, 52, 89);
 }
 
+.carousel-image {
+  object-fit: cover;
+}
+
 /* Galaxy Fold */
 @media only screen and (max-width: 280px) {
   .paragraph {
