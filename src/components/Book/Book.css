@@ -18,6 +18,7 @@
 .book-img{
     width: 100% !important;
     height: 40vh !important;
+    object-fit: cover;
     transition: all 0.5s;
 }
 

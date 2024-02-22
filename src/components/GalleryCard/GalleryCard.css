@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Vazir";
+  src: url("/public/assets/fonts/Vazir.eot");
+  /* IE9 Compat Modes */
+  src: url("/public/assets/fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("/public/assets/fonts/Vazir.woff2") format("woff2"),
+    url("/public/assets/fonts/Vazir.woff") format("woff"),
+    url("/public/assets/fonts/Vazir.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+
+.gallery-card-div {
+  background-image: linear-gradient(to right, rgb(0, 168, 232), rgb(0, 52, 89));
+  font-family: "Vazir" !important;
+  padding: 0 !important;
+}
+
+.gallery-detail-div {
+  color: white;
+  height: 12vh;
+}
+
+.gallery-img {
+  width: 100% !important;
+  height: 40vh !important;
+  object-fit: cover;
+  transition: all 0.5s;
+}
+
+.gallery-img:hover {
+  opacity: 0.5;
+}
+
+/* iPad Pro */
+@media only screen and (max-width: 1024px) {
+  .book-img {
+    height: 22.1vh !important;
+  }
+}
+
+.my-p1 {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.my-p2 {
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-top: -10px;
+}
+
+.gallery-card-title {
+  color: rgb(133, 230, 239);
+}
+
+

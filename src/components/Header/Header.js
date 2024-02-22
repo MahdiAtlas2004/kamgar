@@ -25,6 +25,10 @@ const Header = () => {
               <Nav.Link className="myLink">ارتباط با من</Nav.Link>
             </LinkContainer>
 
+            <LinkContainer to="/gallery">
+              <Nav.Link className="myLink">گالری</Nav.Link>
+            </LinkContainer>
+
             <LinkContainer to="/articles">
               <Nav.Link className="myLink">مقالات</Nav.Link>
             </LinkContainer>

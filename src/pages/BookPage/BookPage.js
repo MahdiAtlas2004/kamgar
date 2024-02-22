@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import {
   Row,
@@ -8,7 +8,7 @@ import {
   ListGroupItem,
   Container,
 } from "react-bootstrap";
-import "./BookPage";
+import "./BookPage.css";
 
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
@@ -19,6 +19,21 @@ import books from "../../books";
 const BookPage = () => {
   const { id } = useParams();
   const book = books.find((item) => item._id === id);
+
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSmallScreen(window.innerWidth <= 390 || window.innerWidth <= 430 || window.innerWidth <= 768 || window.innerWidth <= 820 || window.innerWidth <= 1024);
+    };
+
+    handleResize(); // Initial check
+
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup function
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   if (!book) {
     return <div>Book not found</div>;
@@ -40,10 +55,11 @@ const BookPage = () => {
           <Col md={12} className="d-flex justify-content-center">
             <Image
               src={book.image}
+              className="bookpage-image"
               style={{
-                width: "100%",
-                height: "45vh",
-                boxShadow: "box-shadow: 2px 2px 1.4rem rgb(0, 52, 89)",
+                width: isSmallScreen ? "100%" : "40%",
+                height: isSmallScreen ? "45vh" : "80vh",
+                objectFit: isSmallScreen ? "cover" : "cover",
               }}
             />
           </Col>
@@ -52,8 +68,12 @@ const BookPage = () => {
         <Row>
           <Col lg={12}>
             <ListGroup variant="flush">
-              <ListGroupItem dir="rtl"><b>تاریخ انتشار: {book.date}</b></ListGroupItem>
-              <ListGroupItem dir="rtl" className="paragraph">{book.description}</ListGroupItem>
+              <ListGroupItem dir="rtl">
+                <b>تاریخ انتشار: {book.date}</b>
+              </ListGroupItem>
+              <ListGroupItem dir="rtl" className="paragraph">
+                {book.description}
+              </ListGroupItem>
             </ListGroup>
           </Col>
         </Row>

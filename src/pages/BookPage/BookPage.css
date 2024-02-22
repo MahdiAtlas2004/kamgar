@@ -23,3 +23,17 @@
 .heading {
   color: rgb(0, 52, 89);
 }
+
+.bookpage-image {
+  width: 40%;
+  height: 80vh;
+  object-fit: cover;
+}
+
+/* @media only screen and (width: 390px) {
+  .bookpage-image {
+    width: 100% !important;
+    height: 45vh !important;
+    object-fit: cover !important;
+  }
+} */
