@@ -1,12 +1,12 @@
 .f-icon {
     font-size: 1.5rem;
     padding: 8px 6px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     transition: color 0.3s;
 }
 
 .f-icon:hover {
-    color: white;
+    color: rgb(0, 0, 0);
     cursor: pointer;
 }
 

@@ -31,6 +31,11 @@
  padding: 2%;
 }
 
+::placeholder {
+  font-size: 12px;
+  color: rgb(142, 145, 147) !important;
+}
+
 /* iPad Pro */
 @media only screen and (max-width: 1024px) {
   .col-contact{
@@ -46,4 +51,6 @@
     font-size: 20px !important;
   }
 }
+
+
 

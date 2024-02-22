@@ -30,12 +30,12 @@ const AllArticles = () => {
               </Card.Header>
               <Card.Body>
                 <Card.Text>
-                  موضوع: روایت دیروز، آئینه امروز، نوید فردا
+                  <span className="my-title">موضوع:</span> روایت دیروز، آئینه امروز، نوید فردا
                 </Card.Text>
-                <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender"></i> تاریخ انتشار: 23 حمل 1399 خورشیدی</Card.Text>
+                <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender">&nbsp;&nbsp;</i> <span className="my-title">تاریخ انتشار: </span>  23 حمل 1399 خورشیدی </Card.Text>
                 <Card.Footer className="card-footer">
-                  <Card.Text>منبع: روزنامه 8 صبح</Card.Text>
-                  <Card.Text>صفحه: 5</Card.Text>
+                  <Card.Text><span className="my-title">منبع:</span>  روزنامه 8 صبح</Card.Text>
+                  <Card.Text><span className="my-title">صفحه:</span>  5</Card.Text>
                 </Card.Footer>
               </Card.Body>
             </Card>
@@ -50,11 +50,11 @@ const AllArticles = () => {
                 </Card.Title>
               </Card.Header>
               <Card.Body>
-                <Card.Text>موضوع: فرهنگی، تاریخی، هنری</Card.Text>
-                <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender"></i> تاریخ انتشار: سال هفتم، شماره‌ی نهم، زمستان 1399 خورشیدی</Card.Text>
+                <Card.Text><span className="my-title">موضوع:</span>  فرهنگی، تاریخی، هنری</Card.Text>
+                <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender">&nbsp;&nbsp;</i> <span className="my-title">تاریخ انتشار:</span>  سال هفتم، شماره‌ی نهم، زمستان 1399 خورشیدی</Card.Text>
                 <Card.Footer>
-                  <Card.Text>منبع: فصل‌نامه‌ی دیار دارا</Card.Text>
-                  <Card.Text>صفحه: 19 - 26</Card.Text>
+                  <Card.Text><span className="my-title">منبع:</span>  فصل‌نامه‌ی دیار دارا</Card.Text>
+                  <Card.Text><span className="my-title">صفحه:</span>  19 - 26</Card.Text>
                 </Card.Footer>
               </Card.Body>
             </Card>
@@ -70,12 +70,12 @@ const AllArticles = () => {
               </Card.Header>
               <Card.Body>
                 <Card.Text>
-                  موضوع: فرهنگی، تاریخی، هنری
+                <span className="my-title">موضوع:</span>  فرهنگی، تاریخی، هنری
                 </Card.Text>
-                <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender"></i> تاریخ انتشار: سال هشتم، شماره‌ی دهم، بهار 1400 خورشیدی </Card.Text>
+                <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender">&nbsp;&nbsp;</i> <span className="my-title">تاریخ انتشار:</span>  سال هشتم، شماره‌ی دهم، بهار 1400 خورشیدی </Card.Text>
                 <Card.Footer>
-                  <Card.Text>منبع: فصل‌نامه‌ی دیار دارا </Card.Text>
-                  <Card.Text>صفحه: 10 - 23</Card.Text>
+                  <Card.Text><span className="my-title">منبع:</span>  فصل‌نامه‌ی دیار دارا </Card.Text>
+                  <Card.Text><span className="my-title">صفحه:</span>  10 - 23</Card.Text>
                 </Card.Footer>
               </Card.Body>
             </Card>
@@ -91,12 +91,12 @@ const AllArticles = () => {
               </Card.Header>
               <Card.Body>
                 <Card.Text>
-                  موضوع: فرهنگی، تاریخی، هنری
+                <span className="my-title">موضوع:</span>  فرهنگی، تاریخی، هنری
                 </Card.Text>
-                <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender"></i> تاریخ انتشار: 23 حمل 1399 خورشیدی</Card.Text>
+                <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender">&nbsp;&nbsp;</i> <span className="my-title">تاریخ انتشار:</span>  23 حمل 1399 خورشیدی</Card.Text>
                 <Card.Footer>
-                  <Card.Text>منبع: فصل‌نامه‌ی دیار دارا</Card.Text>
-                  <Card.Text>صفحه: 67 - 75</Card.Text>
+                  <Card.Text><span className="my-title">منبع:</span>  فصل‌نامه‌ی دیار دارا</Card.Text>
+                  <Card.Text><span className="my-title">صفحه:</span>  67 - 75</Card.Text>
                 </Card.Footer>
               </Card.Body>
             </Card>
@@ -113,12 +113,12 @@ const AllArticles = () => {
               </Card.Header>
               <Card.Body>
                 <Card.Text>
-                  موضوع: ادبی - هنری
+                <span className="my-title">موضوع:</span>  ادبی - هنری
                 </Card.Text>
-                <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender"></i> تاریخ انتشار: سال سوم، شماره‌ی یازدهم، پاییز 1401 خورشیدی </Card.Text>
+                <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender">&nbsp;&nbsp;</i> <span className="my-title">تاریخ انتشار:</span>  سال سوم، شماره‌ی یازدهم، پاییز 1401 خورشیدی </Card.Text>
                 <Card.Footer className="card-footer">
-                  <Card.Text>منبع: فصل‌نامه‌ی شمیره </Card.Text>
-                  <Card.Text>صفحه: 111 – 157</Card.Text>
+                  <Card.Text><span className="my-title">منبع:</span>  فصل‌نامه‌ی شمیره </Card.Text>
+                  <Card.Text><span className="my-title">صفحه:</span>  111 – 157</Card.Text>
                 </Card.Footer>
               </Card.Body>
             </Card>
@@ -133,11 +133,11 @@ const AllArticles = () => {
                 </Card.Title>
               </Card.Header>
               <Card.Body>
-                <Card.Text>موضوع: فرهنگی، تاریخی، هنری</Card.Text>
-                <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender"></i> تاریخ انتشار: سال نهم، شماره‌ی دوازدهم، بهار 1402 خورشیدی </Card.Text>
+                <Card.Text><span className="my-title">موضوع:</span>  فرهنگی، تاریخی، هنری</Card.Text>
+                <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender">&nbsp;&nbsp;</i> <span className="my-title">تاریخ انتشار:</span>  سال نهم، شماره‌ی دوازدهم، بهار 1402 خورشیدی </Card.Text>
                 <Card.Footer>
-                  <Card.Text>منبع: فصل‌نامه‌ی دیار دارا</Card.Text>
-                  <Card.Text>صفحه: 8 – 27</Card.Text>
+                  <Card.Text><span className="my-title">منبع:</span>  فصل‌نامه‌ی دیار دارا</Card.Text>
+                  <Card.Text><span className="my-title">صفحه:</span>  8 – 27</Card.Text>
                 </Card.Footer>
               </Card.Body>
             </Card>
@@ -153,12 +153,12 @@ const AllArticles = () => {
               </Card.Header>
               <Card.Body>
                 <Card.Text>
-                  موضوع: فرهنگی، تاریخی، هنری
+                <span className="my-title">موضوع:</span>  فرهنگی، تاریخی، هنری
                 </Card.Text>
-                <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender"></i> تاریخ انتشار: سال دهم، شماره‌ی سیزدهم، بهار 1402 خورشیدی</Card.Text>
+                <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender">&nbsp;&nbsp;</i> <span className="my-title">تاریخ انتشار:</span>  سال دهم، شماره‌ی سیزدهم، بهار 1402 خورشیدی</Card.Text>
                 <Card.Footer>
-                  <Card.Text>منبع: فصل‌نامه‌ی دیار دارا </Card.Text>
-                  <Card.Text>صفحه:  9 – 21</Card.Text>
+                  <Card.Text><span className="my-title">منبع:</span>  فصل‌نامه‌ی دیار دارا </Card.Text>
+                  <Card.Text><span className="my-title">صفحه:</span>   9 – 21</Card.Text>
                 </Card.Footer>
               </Card.Body>
             </Card>
@@ -174,12 +174,12 @@ const AllArticles = () => {
               </Card.Header>
               <Card.Body>
                 <Card.Text>
-                  موضوع: ادبی - هنری
+                <span className="my-title">موضوع:</span>  ادبی - هنری
                 </Card.Text>
-                <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender"></i> تاریخ انتشار: سال چهارم، شماره‌ی سیزدهم، بهار 1402 خورشیدی</Card.Text>
+                <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender">&nbsp;&nbsp;</i> <span className="my-title">تاریخ انتشار:</span>  سال چهارم، شماره‌ی سیزدهم، بهار 1402 خورشیدی</Card.Text>
                 <Card.Footer>
-                  <Card.Text>منبع: فصل‌نامه‌ی شمیره </Card.Text>
-                  <Card.Text>صفحه: 39 – 66</Card.Text>
+                  <Card.Text><span className="my-title">منبع:</span>  فصل‌نامه‌ی شمیره </Card.Text>
+                  <Card.Text><span className="my-title">صفحه:</span>  39 – 66</Card.Text>
                 </Card.Footer>
               </Card.Body>
             </Card>
@@ -196,12 +196,12 @@ const AllArticles = () => {
               </Card.Header>
               <Card.Body>
                 <Card.Text>
-                  موضوع: فرهنگی، تاریخی، هنری
+                <span className="my-title">موضوع:</span>  فرهنگی، تاریخی، هنری
                 </Card.Text>
-                <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender"></i> تاریخ انتشار: سال نخست، شماره‌ی نخست، بهار 1402 خورشیدی</Card.Text>
+                <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender">&nbsp;&nbsp;</i> <span className="my-title">تاریخ انتشار:</span>  سال نخست، شماره‌ی نخست، بهار 1402 خورشیدی</Card.Text>
                 <Card.Footer>
-                  <Card.Text>منبع: سال‌نامه‌ی فرگرد</Card.Text>
-                  <Card.Text>صفحه: 13 – 57</Card.Text>
+                  <Card.Text><span className="my-title">منبع:</span>  سال‌نامه‌ی فرگرد</Card.Text>
+                  <Card.Text><span className="my-title">صفحه:</span>  13 – 57</Card.Text>
                 </Card.Footer>
               </Card.Body>
             </Card>
@@ -218,12 +218,12 @@ const AllArticles = () => {
               </Card.Header>
               <Card.Body>
                 <Card.Text>
-                  موضوع: فرهنگی، تاریخی، هنری
+                <span className="my-title">موضوع:</span>  فرهنگی، تاریخی، هنری
                 </Card.Text>
-                <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender"></i> تاریخ انتشار: سال ششم، شماره‌ی 1628، سه‌شنبه 10 بهمن 1402 خورشیدی</Card.Text>
+                <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender">&nbsp;&nbsp;</i> <span className="my-title">تاریخ انتشار:</span>  سال ششم، شماره‌ی 1628، سه‌شنبه 10 بهمن 1402 خورشیدی</Card.Text>
                 <Card.Footer>
-                  <Card.Text>منبع: روزنامه‌ی سازندگی</Card.Text>
-                  <Card.Text>صفحه: 4</Card.Text>
+                  <Card.Text><span className="my-title">منبع:</span>  روزنامه‌ی سازندگی</Card.Text>
+                  <Card.Text><span className="my-title">صفحه:</span>  4</Card.Text>
                 </Card.Footer>
               </Card.Body>
             </Card>

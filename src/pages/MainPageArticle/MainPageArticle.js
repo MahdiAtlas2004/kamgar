@@ -26,12 +26,12 @@ const MainPageArticle = () => {
               </Card.Header>
               <Card.Body>
                 <Card.Text>
-                  موضوع: روایت دیروز، آئینه امروز، نوید فردا
+                <span className="my-title">موضوع:</span>  روایت دیروز، آئینه امروز، نوید فردا
                 </Card.Text>
-                <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender"></i> تاریخ انتشار: 23 حمل 1399 خورشیدی </Card.Text>
+                <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender">&nbsp;&nbsp;</i> <span className="my-title">تاریخ انتشار:</span>  23 حمل 1399 خورشیدی </Card.Text>
                 <Card.Footer className="card-footer">
-                  <Card.Text>منبع: روزنامه 8 صبح</Card.Text>
-                  <Card.Text>صفحه: 5</Card.Text>
+                  <Card.Text><span className="my-title">منبع:</span>  روزنامه 8 صبح</Card.Text>
+                  <Card.Text><span className="my-title">صفحه:</span>  5</Card.Text>
                 </Card.Footer>
               </Card.Body>
             </Card>
@@ -46,11 +46,11 @@ const MainPageArticle = () => {
                 </Card.Title>
               </Card.Header>
               <Card.Body>
-                <Card.Text>موضوع: فرهنگی، تاریخی، هنری</Card.Text>
-                <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender"></i> تاریخ انتشار: سال هفتم، شماره‌ی نهم، زمستان 1399 خورشیدی</Card.Text>
+                <Card.Text><span className="my-title">موضوع:</span>  فرهنگی، تاریخی، هنری</Card.Text>
+                <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender">&nbsp;&nbsp;</i> <span className="my-title">تاریخ انتشار:</span>  سال هفتم، شماره‌ی نهم، زمستان 1399 خورشیدی</Card.Text>
                 <Card.Footer>
-                  <Card.Text>منبع: فصل‌نامه‌ی دیار دارا</Card.Text>
-                  <Card.Text>صفحه: 19 - 26</Card.Text>
+                  <Card.Text><span className="my-title">منبع: </span>  فصل‌نامه‌ی دیار دارا</Card.Text>
+                  <Card.Text><span className="my-title">صفحه:</span>  19 - 26</Card.Text>
                 </Card.Footer>
               </Card.Body>
             </Card>
@@ -66,12 +66,12 @@ const MainPageArticle = () => {
               </Card.Header>
               <Card.Body>
                 <Card.Text>
-                  موضوع: فرهنگی، تاریخی، هنری
+                <span className="my-title">موضوع:</span>  فرهنگی، تاریخی، هنری
                 </Card.Text>
-                <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender"></i>  تاریخ انتشار: سال هشتم، شماره‌ی دهم، بهار 1400 خورشیدی  </Card.Text>
+                <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender">&nbsp;&nbsp;</i>  <span className="my-title">تاریخ انتشار:</span>  سال هشتم، شماره‌ی دهم، بهار 1400 خورشیدی  </Card.Text>
                 <Card.Footer>
-                  <Card.Text>منبع: فصل‌نامه‌ی دیار دارا </Card.Text>
-                  <Card.Text>صفحه: 10 - 23</Card.Text>
+                  <Card.Text><span className="my-title">منبع:</span>  فصل‌نامه‌ی دیار دارا </Card.Text>
+                  <Card.Text><span className="my-title">صفحه:</span>  10 - 23</Card.Text>
                 </Card.Footer>
               </Card.Body>
             </Card>

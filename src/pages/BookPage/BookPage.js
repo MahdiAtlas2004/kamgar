@@ -53,7 +53,7 @@ const BookPage = () => {
           <Col lg={12}>
             <ListGroup variant="flush">
               <ListGroupItem dir="rtl"><b>تاریخ انتشار: {book.date}</b></ListGroupItem>
-              <ListGroupItem dir="rtl">{book.description}</ListGroupItem>
+              <ListGroupItem dir="rtl" className="paragraph">{book.description}</ListGroupItem>
             </ListGroup>
           </Col>
         </Row>

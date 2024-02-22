@@ -6,7 +6,7 @@ const ITyped = () => {
 
   useEffect(() => {
     const myElement = textRef.current;
-    const strings = ["نویسنده", "تاریخ شناس", "شاعر"];
+    const strings = ["نویسنده", "تاریخ نگار", "شاعر"];
 
     const instance = init(myElement, {
       strings: strings,

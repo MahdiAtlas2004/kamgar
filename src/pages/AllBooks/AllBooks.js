@@ -11,7 +11,7 @@ const AllBooks = () => {
     <div>
       <Header />
 
-      <div className="all-books">
+      <div className="all-books" dir="rtl">
         <Books />
       </div>
 

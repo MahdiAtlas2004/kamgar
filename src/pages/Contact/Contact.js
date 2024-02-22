@@ -190,7 +190,7 @@ const Contact = () => {
                   <Form.Label>اسم</Form.Label>
                   <Form.Control
                     type="text"
-                    placeholder="اسم"
+                    placeholder="اسم خود را اینجا وارد کنید."
                     name="email_from"
                   />
                 </Form.Group>
@@ -199,7 +199,7 @@ const Contact = () => {
                   <Form.Label>ایمیل</Form.Label>
                   <Form.Control
                     type="email"
-                    placeholder="ایمیل"
+                    placeholder="ایمیل تان را اینجا وارد کنید."
                     name="user_email"
                   />
                   <Form.Text className="text-muted">
@@ -211,16 +211,15 @@ const Contact = () => {
                   <Form.Label>موضوع</Form.Label>
                   <Form.Control
                     type="text"
-                    placeholder="موضوع"
+                    placeholder="موضوع مورد نظر تان را اینجا وارد کنید."
                     name="content"
                   />
                 </Form.Group>
 
-                <Form.Group className="mb-3" controlId="formTextarea">
+                <Form.Group className="mb-3" controlId="formTextarea">                  
                   <Form.Label>پیام شما</Form.Label>
-                  <Form.Control as="textarea" rows={3} name="message" />
+                  <Form.Control as="textarea" rows={3} name="message" placeholder="پیام خود را اینجا وارد کنید." className="place"/>
                 </Form.Group>
-
                 <Button variant="primary" type="submit">
                   ارسال
                 </Button>
