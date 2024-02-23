@@ -30,6 +30,10 @@
   object-fit: cover;
 }
 
+.note {
+  font-size: 0.9rem;
+}
+
 /* @media only screen and (width: 390px) {
   .bookpage-image {
     width: 100% !important;

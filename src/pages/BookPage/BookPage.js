@@ -74,6 +74,9 @@ const BookPage = () => {
               <ListGroupItem dir="rtl" className="paragraph">
                 {book.description}
               </ListGroupItem>
+              <ListGroupItem dir="rtl" className="note">
+                <span className="fw-bold">یادداشت: </span>{book.note}
+              </ListGroupItem>
             </ListGroup>
           </Col>
         </Row>
