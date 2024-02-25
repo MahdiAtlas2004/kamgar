@@ -21,13 +21,10 @@ const MainPageArticle = () => {
             <Card className="article-card" data-aos="fade-down">
               <Card.Header>
                 <Card.Title className="card-title">
-                  معرفی، نقد و بررسی تذکره ی زرنگار
+                  <span className="article-title">عنوان: </span>معرفی، نقد و بررسی تذکره ی زرنگار
                 </Card.Title>
               </Card.Header>
-              <Card.Body>
-                <Card.Text>
-                <span className="my-title">موضوع:</span>  روایت دیروز، آئینه امروز، نوید فردا
-                </Card.Text>
+              <Card.Body className="mt-4">
                 <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender">&nbsp;&nbsp;</i> <span className="my-title">تاریخ انتشار:</span>  23 حمل 1399 خورشیدی </Card.Text>
                 <Card.Footer className="card-footer">
                   <Card.Text><span className="my-title">منبع:</span>  روزنامه 8 صبح</Card.Text>
@@ -42,11 +39,10 @@ const MainPageArticle = () => {
             <Card className="article-card" data-aos="fade-up">
               <Card.Header>
                 <Card.Title className="card-title">
-                  گوهرشاد بیگم زنی در حصار یک گنبد
+                <span className="article-title">عنوان: </span>گوهرشاد بیگم زنی در حصار یک گنبد
                 </Card.Title>
               </Card.Header>
-              <Card.Body>
-                <Card.Text><span className="my-title">موضوع:</span>  فرهنگی، تاریخی، هنری</Card.Text>
+              <Card.Body className="mt-4">
                 <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender">&nbsp;&nbsp;</i> <span className="my-title">تاریخ انتشار:</span>  سال هفتم، شماره‌ی نهم، زمستان 1399 خورشیدی</Card.Text>
                 <Card.Footer>
                   <Card.Text><span className="my-title">منبع: </span>  فصل‌نامه‌ی دیار دارا</Card.Text>
@@ -61,13 +57,10 @@ const MainPageArticle = () => {
             <Card className="article-card" data-aos="fade-down">
               <Card.Header>
                 <Card.Title className="card-title">
-                طاهریان فوشنج و نقش آنان در ضرب سکه
+                <span className="article-title">عنوان: </span>طاهریان فوشنج و نقش آنان در ضرب سکه
                 </Card.Title>
               </Card.Header>
-              <Card.Body>
-                <Card.Text>
-                <span className="my-title">موضوع:</span>  فرهنگی، تاریخی، هنری
-                </Card.Text>
+              <Card.Body className="mt-4">
                 <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender">&nbsp;&nbsp;</i>  <span className="my-title">تاریخ انتشار:</span>  سال هشتم، شماره‌ی دهم، بهار 1400 خورشیدی  </Card.Text>
                 <Card.Footer>
                   <Card.Text><span className="my-title">منبع:</span>  فصل‌نامه‌ی دیار دارا </Card.Text>

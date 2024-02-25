@@ -79,6 +79,11 @@
   font-weight: bold;
 }
 
+.article-title {
+  font-weight: bold;
+  color: rgb(212, 208, 208);
+}
+
 /* iPhone 12 Pro */
 @media only screen and (max-width: 390px) {
   .myCol-article {

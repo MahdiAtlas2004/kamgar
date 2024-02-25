@@ -25,13 +25,10 @@ const AllArticles = () => {
             <Card className="article-card">
               <Card.Header>
                 <Card.Title className="card-title">
-                  معرفی، نقد و بررسی تذکره ی زرنگار
+                <span className="article-title">عنوان: </span>معرفی، نقد و بررسی تذکره ی زرنگار
                 </Card.Title>
               </Card.Header>
-              <Card.Body>
-                <Card.Text>
-                  <span className="my-title">موضوع:</span> روایت دیروز، آئینه امروز، نوید فردا
-                </Card.Text>
+              <Card.Body className="mt-4">
                 <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender">&nbsp;&nbsp;</i> <span className="my-title">تاریخ انتشار: </span>  23 حمل 1399 خورشیدی </Card.Text>
                 <Card.Footer className="card-footer">
                   <Card.Text><span className="my-title">منبع:</span>  روزنامه 8 صبح</Card.Text>
@@ -46,11 +43,10 @@ const AllArticles = () => {
             <Card className="article-card">
               <Card.Header>
                 <Card.Title className="card-title">
-                  گوهرشاد بیگم زنی در حصار یک گنبد
+                <span className="article-title">عنوان: </span>گوهرشاد بیگم زنی در حصار یک گنبد
                 </Card.Title>
               </Card.Header>
-              <Card.Body>
-                <Card.Text><span className="my-title">موضوع:</span>  فرهنگی، تاریخی، هنری</Card.Text>
+              <Card.Body className="mt-4">
                 <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender">&nbsp;&nbsp;</i> <span className="my-title">تاریخ انتشار:</span>  سال هفتم، شماره‌ی نهم، زمستان 1399 خورشیدی</Card.Text>
                 <Card.Footer>
                   <Card.Text><span className="my-title">منبع:</span>  فصل‌نامه‌ی دیار دارا</Card.Text>
@@ -65,13 +61,10 @@ const AllArticles = () => {
             <Card className="article-card">
               <Card.Header>
                 <Card.Title className="card-title">
-                طاهریان فوشنج و نقش آنان در ضرب سکه
+                <span className="article-title">عنوان: </span>طاهریان فوشنج و نقش آنان در ضرب سکه
                 </Card.Title>
               </Card.Header>
-              <Card.Body>
-                <Card.Text>
-                <span className="my-title">موضوع:</span>  فرهنگی، تاریخی، هنری
-                </Card.Text>
+              <Card.Body className="mt-4">
                 <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender">&nbsp;&nbsp;</i> <span className="my-title">تاریخ انتشار:</span>  سال هشتم، شماره‌ی دهم، بهار 1400 خورشیدی </Card.Text>
                 <Card.Footer>
                   <Card.Text><span className="my-title">منبع:</span>  فصل‌نامه‌ی دیار دارا </Card.Text>
@@ -86,13 +79,10 @@ const AllArticles = () => {
             <Card className="article-card">
               <Card.Header>
                 <Card.Title className="card-title">
-                خواجه محمد اسماعیل دارا و سرنوشت دیوانش
+                <span className="article-title">عنوان: </span> خواجه محمد اسماعیل دارا و سرنوشت دیوانش
                 </Card.Title>
               </Card.Header>
-              <Card.Body>
-                <Card.Text>
-                <span className="my-title">موضوع:</span>  فرهنگی، تاریخی، هنری
-                </Card.Text>
+              <Card.Body className="mt-4">
                 <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender">&nbsp;&nbsp;</i> <span className="my-title">تاریخ انتشار:</span>  23 حمل 1399 خورشیدی</Card.Text>
                 <Card.Footer>
                   <Card.Text><span className="my-title">منبع:</span>  فصل‌نامه‌ی دیار دارا</Card.Text>
@@ -108,13 +98,10 @@ const AllArticles = () => {
             <Card className="article-card">
               <Card.Header>
                 <Card.Title className="card-title">
-                ناخدای نستعلیق (شرح حال، احوال و آثار میرعلی هروی)
+                <span className="article-title">عنوان: </span>ناخدای نستعلیق (شرح حال، احوال و آثار میرعلی هروی)
                 </Card.Title>
               </Card.Header>
-              <Card.Body>
-                <Card.Text>
-                <span className="my-title">موضوع:</span>  ادبی - هنری
-                </Card.Text>
+              <Card.Body className="mt-4">
                 <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender">&nbsp;&nbsp;</i> <span className="my-title">تاریخ انتشار:</span>  سال سوم، شماره‌ی یازدهم، پاییز 1401 خورشیدی </Card.Text>
                 <Card.Footer className="card-footer">
                   <Card.Text><span className="my-title">منبع:</span>  فصل‌نامه‌ی شمیره </Card.Text>
@@ -129,11 +116,10 @@ const AllArticles = () => {
             <Card className="article-card">
               <Card.Header>
                 <Card.Title className="card-title">
-                روج و مشاهیر آن
+                <span className="article-title">عنوان: </span>روج و مشاهیر آن
                 </Card.Title>
               </Card.Header>
-              <Card.Body>
-                <Card.Text><span className="my-title">موضوع:</span>  فرهنگی، تاریخی، هنری</Card.Text>
+              <Card.Body className="mt-4">
                 <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender">&nbsp;&nbsp;</i> <span className="my-title">تاریخ انتشار:</span>  سال نهم، شماره‌ی دوازدهم، بهار 1402 خورشیدی </Card.Text>
                 <Card.Footer>
                   <Card.Text><span className="my-title">منبع:</span>  فصل‌نامه‌ی دیار دارا</Card.Text>
@@ -148,13 +134,10 @@ const AllArticles = () => {
             <Card className="article-card">
               <Card.Header>
                 <Card.Title className="card-title">
-                نگرشی بر جایگاه جغرافیای فوشنج
+                <span className="article-title">عنوان: </span>نگرشی بر جایگاه جغرافیای فوشنج
                 </Card.Title>
               </Card.Header>
-              <Card.Body>
-                <Card.Text>
-                <span className="my-title">موضوع:</span>  فرهنگی، تاریخی، هنری
-                </Card.Text>
+              <Card.Body className="mt-4">
                 <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender">&nbsp;&nbsp;</i> <span className="my-title">تاریخ انتشار:</span>  سال دهم، شماره‌ی سیزدهم، بهار 1402 خورشیدی</Card.Text>
                 <Card.Footer>
                   <Card.Text><span className="my-title">منبع:</span>  فصل‌نامه‌ی دیار دارا </Card.Text>
@@ -169,13 +152,10 @@ const AllArticles = () => {
             <Card className="article-card">
               <Card.Header>
                 <Card.Title className="card-title">
-                نی‌نامه جامی و فهرست توصیفی نسخه‌های آن
+                <span className="article-title">عنوان: </span>نی‌نامه جامی و فهرست توصیفی نسخه‌های آن
                 </Card.Title>
               </Card.Header>
-              <Card.Body>
-                <Card.Text>
-                <span className="my-title">موضوع:</span>  ادبی - هنری
-                </Card.Text>
+              <Card.Body className="mt-4">
                 <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender">&nbsp;&nbsp;</i> <span className="my-title">تاریخ انتشار:</span>  سال چهارم، شماره‌ی سیزدهم، بهار 1402 خورشیدی</Card.Text>
                 <Card.Footer>
                   <Card.Text><span className="my-title">منبع:</span>  فصل‌نامه‌ی شمیره </Card.Text>
@@ -191,13 +171,10 @@ const AllArticles = () => {
             <Card className="article-card">
               <Card.Header>
                 <Card.Title className="card-title">
-                منار جام شاهکاری بی‌نظیر در هنر معماری
+                <span className="article-title">عنوان: </span>منار جام شاهکاری بی‌نظیر در هنر معماری
                 </Card.Title>
               </Card.Header>
-              <Card.Body>
-                <Card.Text>
-                <span className="my-title">موضوع:</span>  فرهنگی، تاریخی، هنری
-                </Card.Text>
+              <Card.Body className="mt-4">
                 <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender">&nbsp;&nbsp;</i> <span className="my-title">تاریخ انتشار:</span>  سال نخست، شماره‌ی نخست، بهار 1402 خورشیدی</Card.Text>
                 <Card.Footer>
                   <Card.Text><span className="my-title">منبع:</span>  سال‌نامه‌ی فرگرد</Card.Text>
@@ -213,13 +190,10 @@ const AllArticles = () => {
             <Card className="article-card">
               <Card.Header>
                 <Card.Title className="card-title">
-                ادیب بزرگ هرات (نگاهی کوتاه به کارنامه‌ی محمد ناصر ره‌یاب)
+                <span className="article-title">عنوان: </span>ادیب بزرگ هرات (نگاهی کوتاه به کارنامه‌ی محمد ناصر ره‌یاب)
                 </Card.Title>
               </Card.Header>
-              <Card.Body>
-                <Card.Text>
-                <span className="my-title">موضوع:</span>  فرهنگی، تاریخی، هنری
-                </Card.Text>
+              <Card.Body className="mt-4">
                 <Card.Text><i className="fa-solid fa-calendar-days article-icon-calender">&nbsp;&nbsp;</i> <span className="my-title">تاریخ انتشار:</span>  سال ششم، شماره‌ی 1628، سه‌شنبه 10 بهمن 1402 خورشیدی</Card.Text>
                 <Card.Footer>
                   <Card.Text><span className="my-title">منبع:</span>  روزنامه‌ی سازندگی</Card.Text>

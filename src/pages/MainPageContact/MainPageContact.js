@@ -102,7 +102,7 @@ const MainPageContact = () => {
                   <Col lg={12}>ایمیل</Col>
                 </Row>
                 <Row>
-                  <Col lg={12}>hamidfarhat786@gmail.com</Col>
+                  <Col lg={12}>hamidkamgar0@gmail.com</Col>
                 </Row>
               </Col>
 

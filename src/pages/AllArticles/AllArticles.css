@@ -25,3 +25,8 @@
   color: rgb(196, 199, 199);
   font-weight: bold;
 }
+
+.article-title {
+  font-weight: bold;
+  color: rgb(212, 208, 208);
+}
