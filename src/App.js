@@ -9,6 +9,7 @@ import Contact from "./pages/Contact/Contact";
 import AllArticles from "./pages/AllArticles/AllArticles";
 import Gallery from "./pages/Gallery/Gallery";
 import ScrollToTopOnMount from "./components/ScrollToTopOnMount/ScrollToTopOnMount";
+import NotFound from "./pages/NotFound";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
           <Route path="/articles" element={<AllArticles />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>
     </div>
