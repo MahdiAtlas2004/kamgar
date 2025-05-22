@@ -104,7 +104,7 @@ const BookPage = () => {
                     rel="noreferrer"
                   >
                     <button className="btn btn-outline-primary">
-                      Download PDF <i className="fa-solid fa-arrow-down"></i>
+                      دانلود سالنامه <i className="fa-solid fa-arrow-down"></i>
                     </button>
                   </a>
                 </ListGroupItem>
