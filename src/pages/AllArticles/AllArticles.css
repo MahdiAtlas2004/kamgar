@@ -30,3 +30,17 @@
   font-weight: bold;
   color: rgb(212, 208, 208);
 }
+
+.article-card {
+  border: 1px solid #ddd; /* Add a border for visibility */
+  border-radius: 0.5rem; /* Rounded corners */
+  overflow: hidden; /* Prevent overflow */
+}
+
+.card-title {
+  font-size: 1.2rem; /* Adjust title size */
+}
+
+.card-image {
+  border-radius: 0.5rem; /* Optional: Add rounded corners */
+}
