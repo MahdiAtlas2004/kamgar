@@ -401,7 +401,7 @@ const AllArticles = () => {
                       &nbsp;&nbsp;
                     </i>{" "}
                     <span className="my-title">تاریخ انتشار:</span>{" "}
-                    {article.publicationYear}
+                    {article.publicationYear} هجری خورشیدی
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer className="p-2">

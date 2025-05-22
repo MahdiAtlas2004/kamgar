@@ -19,6 +19,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Layout />} exact />
           <Route path="/book/:id" element={<BookPage />} />
+          <Route path="/book/yearbook/:id" element={<BookPage />} />
           <Route path="/allBooks" element={<AllBooks />} />
           <Route path="/about" element={<AboutFullPage />} />
           <Route path="/articles" element={<AllArticles />} />
