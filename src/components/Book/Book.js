@@ -15,7 +15,7 @@ function Book({ book }) {
         <div className="d-flex book-name">
           <p className="name">{book.isYearBook ? 'نام سالنامه:' : 'نام کتاب:'} <span className="text-white">{book.name}</span></p>
         </div>
-        <div className={`d-flex ${book._id == 9 || book._id == 10 || book._id == 11 ? 'mt-3' : 'mt-3'}`}>
+        <div className={`d-flex mt-3`}>
           <p className="date">تاریخ انتشار: &nbsp;</p>
           {book.date}
         </div>
