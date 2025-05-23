@@ -145,7 +145,7 @@ const Contact = () => {
                       rel="noopener noreferrer"
                       target="_blank"
                     >
-                      نگارستان کامگار
+                      نشر کامگار
                     </a>
                   </Col>
                 </Row>

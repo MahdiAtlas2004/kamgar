@@ -32,4 +32,11 @@ export const articles = [
     pages: "ص 245 – 278",
     coverImage: "/assets/images/kashqari_1.jpg", // ID for the cover image
   },
+  {
+    title: "شرح حدیث عماء یا حدیث ابی‌رزین عقیلی؛ جامی",
+    source: "شماره‌ی پانزدهم، دوفصل‌نامه‌ی دیار دارا.",
+    publicationYear: null,
+    pages: '',
+    coverImage: "/assets/images/dara.jpg", // ID for the cover image
+  },
 ];

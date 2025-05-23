@@ -139,7 +139,7 @@ const MainPageContact = () => {
                       href="https://t.me/Hamidkamgar"
                       style={{ textDecoration: "none" }}
                     >
-                      نگارستان کامگار
+                      نشر کامگار
                     </a>
                   </Col>
                 </Row>

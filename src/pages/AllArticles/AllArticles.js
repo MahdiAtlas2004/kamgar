@@ -20,7 +20,10 @@ const AllArticles = () => {
         </Row>
 
         {/* All The Articles */}
-        <Row dir="rtl" className="mt-2 gy-4 text-center">
+        <Row
+          dir="rtl"
+          className="mt-2 gy-4 text-center d-flex justify-content-center"
+        >
           {/* Card 1 */}
           <Col lg={3}>
             <Card className="article-card">
@@ -309,63 +312,12 @@ const AllArticles = () => {
               </Card.Body>
             </Card>
           </Col>
+        </Row>
 
-          <Col lg={3}>
-            <Card className="article-card">
-              <Card.Header>
-                <Card.Title className="card-title">
-                  <span className="article-title">عنوان: </span>ادیب بزرگ هرات
-                  (نگاهی کوتاه به کارنامه‌ی محمد ناصر ره‌یاب)
-                </Card.Title>
-              </Card.Header>
-              <Card.Body className="mt-4">
-                <Card.Text>
-                  <i className="fa-solid fa-calendar-days article-icon-calender">
-                    &nbsp;&nbsp;
-                  </i>{" "}
-                  <span className="my-title">تاریخ انتشار:</span> سال ششم،
-                  شماره‌ی 1628، سه‌شنبه 10 بهمن 1402 خورشیدی
-                </Card.Text>
-                <Card.Footer>
-                  <Card.Text>
-                    <span className="my-title">منبع:</span> روزنامه‌ی سازندگی
-                  </Card.Text>
-                  <Card.Text>
-                    <span className="my-title">صفحه:</span> 4
-                  </Card.Text>
-                </Card.Footer>
-              </Card.Body>
-            </Card>
-          </Col>
-
-          <Col lg={3}>
-            <Card className="article-card">
-              <Card.Header>
-                <Card.Title className="card-title">
-                  <span className="article-title">عنوان: </span>ادیب بزرگ هرات
-                  (نگاهی کوتاه به کارنامه‌ی محمد ناصر ره‌یاب)
-                </Card.Title>
-              </Card.Header>
-              <Card.Body className="mt-4">
-                <Card.Text>
-                  <i className="fa-solid fa-calendar-days article-icon-calender">
-                    &nbsp;&nbsp;
-                  </i>{" "}
-                  <span className="my-title">تاریخ انتشار:</span> سال ششم،
-                  شماره‌ی 1628، سه‌شنبه 10 بهمن 1402 خورشیدی
-                </Card.Text>
-                <Card.Footer>
-                  <Card.Text>
-                    <span className="my-title">منبع:</span> روزنامه‌ی سازندگی
-                  </Card.Text>
-                  <Card.Text>
-                    <span className="my-title">صفحه:</span> 4
-                  </Card.Text>
-                </Card.Footer>
-              </Card.Body>
-            </Card>
-          </Col>
-
+        <Row
+          dir="rtl"
+          className="mt-2 gy-4 text-center d-flex justify-content-center"
+        >
           {/* Articles with images */}
           {articles.map((article, index) => (
             <Col lg={3} key={index}>
@@ -397,11 +349,15 @@ const AllArticles = () => {
                     }}
                   />
                   <Card.Text>
-                    <i className="fa-solid fa-calendar-days article-icon-calender">
-                      &nbsp;&nbsp;
-                    </i>{" "}
-                    <span className="my-title">تاریخ انتشار:</span>{" "}
-                    {article.publicationYear} هجری خورشیدی
+                    {article.publicationYear && (
+                      <>
+                        <i className="fa-solid fa-calendar-days article-icon-calender">
+                          &nbsp;&nbsp;
+                        </i>{" "}
+                        <span className="my-title">تاریخ انتشار:</span>{" "}
+                        {article.publicationYear} هجری خورشیدی
+                      </>
+                    )}
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer className="p-2">
@@ -410,9 +366,11 @@ const AllArticles = () => {
                   <Card.Text>
                     <span className="my-title">منبع:</span> {article.source}
                   </Card.Text>
-                  <Card.Text>
-                    <span className="my-title">صفحه:</span> {article.pages}
-                  </Card.Text>
+                  {article.pages && (
+                    <Card.Text>
+                      <span className="my-title">صفحه:</span> {article.pages}
+                    </Card.Text>
+                  )}
                 </Card.Footer>
               </div>
             </Col>
