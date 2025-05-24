@@ -27,9 +27,9 @@ const Footer = () => {
         <Row className="mt-1">
           <Col lg={12} className="text-center">
             <h6>
-              &copy; <b>Mahdi Atlas</b>, All Rights Reserved | Designed And
+              &copy; <b>Fargard</b>, All Rights Reserved | Designed And
               Developed By{" "}
-              <a href="https://linkedin.com/in/mahdi-atlas-59258a289" className="author-link">Mahdi Atlas</a>
+              <span>Fargard</span>
             </h6>
           </Col>
         </Row>
